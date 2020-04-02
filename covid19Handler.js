@@ -69,12 +69,11 @@ function sortData(fieldNumber) {
     });
     if (sortType[fieldNumber] == "asc") {
         clearClass();
-        $("#sort-style-" + fieldNumber).addClass("arrow-down");
+        $("#sort-style-" + fieldNumber).html("").addClass("arrow-down");
         sortType[fieldNumber] = "desc";
     } else if (sortType[fieldNumber] == "desc") {
         clearClass();
-        $(
-            "#sort-style-" + fieldNumber).addClass("arrow-up");
+        $("#sort-style-" + fieldNumber).html("").addClass("arrow-up");
         sortType[fieldNumber] = "asc";
     }
     showTable(covid19Data);
