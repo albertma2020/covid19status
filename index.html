@@ -192,9 +192,9 @@
             });
         }
 
-        function search() {
+        function search(countryName) {
             //Filter data based on the user input
-            let value = $("#myInput").val().toLowerCase();
+            let value = (countryName ? countryName.toLowerCase() : $("#myInput").val().toLowerCase());
             $("#myTable tr").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
             });
@@ -208,7 +208,10 @@
     <div class="loader" id="loading" style="margin:20px;"></div>
 
     <p id="update"></p>
-    <p id="taiwan"><a href="#tr-Taiwan">Go to the Taiwan record</a></p>
+    <p id="taiwan">
+        <a href="javascript:search('Taiwan')">The Taiwan record</a>&nbsp;
+        <a href="javascript:showTable()">All records</a>
+    </p>
     <p><i>Click the headers to sort the table. (Data sources:
             <a target="_blank"
                 href="https://corona.lmao.ninja/countries?sort=country">https://corona.lmao.ninja/countries?sort=country</a>)
@@ -224,7 +227,7 @@
         <thead>
             <tr>
                 <th>Country Flag</th>
-                <th class="sortable" onclick="sortData(1)">Country<span id="sort-style-1"></span>
+                <th class="sortable" onclick="sortData(1)">Country Name<span id="sort-style-1"></span>
                 </th>
                 <th class="sortable" style='text-align:right' onclick="sortData(2)">Total Cases<span id="sort-style-2"></span>
                 </th>
