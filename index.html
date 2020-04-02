@@ -179,17 +179,20 @@
 
 <body>
 
-
+    <h2>COVID-19 Status in the World</h2>
     <div class="loader" id="loading" style="margin:20px;"></div>
 
     <p id="update"></p>
     <p id="taiwan"><a href="#tr-Taiwan">Go to the Taiwan data</a></p>
-    <p><i>Click the headers to sort the table.</i></p>
+    <p><i>Click the headers to sort the table. (Data sources:
+            <a target="_blank"
+                href="https://corona.lmao.ninja/countries?sort=country">https://corona.lmao.ninja/countries?sort=country</a>)
+        </i>
+    </p>
 
     <table>
         <thead>
             <tr>
-                <!--When a header is clicked, run the sortTable function, with a parameter, 0 for sorting by names, 1 for sorting by country:-->
                 <th>Country Flag</th>
                 <th class="sortable" onclick="sortData(1)">Country<span id="sort-style-1"></span>
                 </th>
