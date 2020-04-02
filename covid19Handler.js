@@ -56,6 +56,7 @@ function showTable() {
 }
 
 function sortData(fieldNumber) {
+
     covid19Data.sort(function(a, b) {
         if (sortType[fieldNumber] == "asc") {
             if (a[fieldNames[fieldNumber]] > b[fieldNames[fieldNumber]]) return -1;
@@ -67,6 +68,8 @@ function sortData(fieldNumber) {
             else return 1;
         }
     });
+    clearHighlight();
+    $("#field-" + fieldNumber).css("color", "darkred");
     if (sortType[fieldNumber] == "asc") {
         $("#sort-style-" + fieldNumber).html("⬇");
         sortType[fieldNumber] = "desc";
@@ -75,6 +78,13 @@ function sortData(fieldNumber) {
         sortType[fieldNumber] = "asc";
     }
     showTable(covid19Data);
+}
+
+function clearHighlight() {
+    for (let i = 1; i <= 6; i++) {
+        $("#field-" + i).css("color", "black");
+        $("#sort-style-" + i).html("&nbsp;");
+    }
 }
 
 function setFilterDataBtn() {
