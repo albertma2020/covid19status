@@ -27,6 +27,8 @@
         td {
             text-align: center;
             padding: 8px;
+            border-left: solid 1px lightgrey;
+            border-right: solid 1px lightgrey;
         }
         
         thead tr,
@@ -101,6 +103,7 @@
                 covid19Data = data;
                 showTable();
             });
+            setFilterDataBtn();
         });
 
         function buildCountryMap() {
@@ -120,7 +123,7 @@
                     let countryName = covid19Data[idx].country;
                     let content =
                         "<tr id='tr-" + countryName + "' >" +
-                        "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "'><img height='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
+                        "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img height='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
                         "<td>" + countryName + (countryMap.get(countryName) ? " (" + countryMap.get(countryName) + ")" : "") + "</td>" +
                         "<td style='text-align:right'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
                         "<td style='text-align:right'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
@@ -133,8 +136,7 @@
                     $("#myTable").append(content);
                 }
 
-                let updated = "<i>Updated: " + new Date(covid19Data[idx].updated) +
-                    "</i>";
+                let updated = "Updated: " + new Date(covid19Data[idx].updated);
                 console.log(updated);
                 $("#update").html(updated);
                 $("#loading").hide();
@@ -174,6 +176,29 @@
                 $("#sort-style-" + i).removeClass("arrow-up").removeClass("arrow-down");
             }
         }
+
+        function setFilterDataBtn() {
+            $("#search").on("click", function() {
+                search();
+            });
+
+            $("#myInput").on("keyup", function(event) {
+                // Number 13 is the "Enter" key on the keyboard
+                if (event.keyCode === 13) {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    search();
+                }
+            });
+        }
+
+        function search() {
+            //Filter data based on the user input
+            let value = $("#myInput").val().toLowerCase();
+            $("#myTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+            });
+        }
     </script>
 </head>
 
@@ -183,11 +208,16 @@
     <div class="loader" id="loading" style="margin:20px;"></div>
 
     <p id="update"></p>
-    <p id="taiwan"><a href="#tr-Taiwan">Go to the Taiwan data</a></p>
+    <p id="taiwan"><a href="#tr-Taiwan">Go to the Taiwan record</a></p>
     <p><i>Click the headers to sort the table. (Data sources:
             <a target="_blank"
                 href="https://corona.lmao.ninja/countries?sort=country">https://corona.lmao.ninja/countries?sort=country</a>)
         </i>
+    </p>
+    <p>
+        <label>Input the country name to search records:
+            <input id="myInput" type="search" placeholder="Ex: Japan" />
+            <input id="search" type="button" value="Search" /></label>
     </p>
 
     <table>
@@ -196,22 +226,20 @@
                 <th>Country Flag</th>
                 <th class="sortable" onclick="sortData(1)">Country<span id="sort-style-1"></span>
                 </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(2)">Cases<span id="sort-style-2"></span>
+                <th class="sortable" style='text-align:right' onclick="sortData(2)">Total Cases<span id="sort-style-2"></span>
                 </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(3)">Deaths<span id="sort-style-4"></span>
+                <th class="sortable" style='text-align:right' onclick="sortData(3)">Total Deaths<span id="sort-style-3"></span>
                 </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(4)">Active<span id="sort-style-6"></span>
+                <th class="sortable" style='text-align:right' onclick="sortData(4)">Active Cases<span id="sort-style-4"></span>
                 </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(5)">Today Cases<span id="sort-style-3"></span>
+                <th class="sortable" style='text-align:right' onclick="sortData(5)">Today Cases<span id="sort-style-5"></span>
                 </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(6)">Today Deaths<span id="sort-style-5"></span>
+                <th class="sortable" style='text-align:right' onclick="sortData(6)">Today Deaths<span id="sort-style-6"></span>
                 </th>
             </tr>
         </thead>
         <tbody id="myTable"></tbody>
     </table>
-
-
 
 </body>
 
