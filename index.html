@@ -7,209 +7,19 @@
     <meta charset="utf-8">
     <meta name="author" content="SOSELab@NTOU">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: "Palatino Linotype", "Microsoft YaHei", "LiHei Pro", TW-Kai;
-            font-size: 3.5vmin;
-        }
-        
-        table {
-            border-spacing: 0;
-            width: 100%;
-            border: 1px solid #ddd;
-        }
-        
-        th.sortable {
-            cursor: pointer;
-        }
-        
-        th,
-        td {
-            text-align: center;
-            padding: 8px;
-            border-left: solid 1px lightgrey;
-            border-right: solid 1px lightgrey;
-        }
-        
-        thead tr,
-        tr:nth-child(even) {
-            background-color: #f2f2f2
-        }
-        
-        .arrow-up {
-            width: 0;
-            height: 0;
-            border-left: 5px solid transparent;
-            border-right: 5px solid transparent;
-            border-bottom: 5px solid black;
-        }
-        
-        .arrow-down {
-            width: 0;
-            height: 0;
-            border-left: 5px solid transparent;
-            border-right: 5px solid transparent;
-            border-top: 5px solid black;
-        }
-        
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid #3498db;
-            width: 200px;
-            height: 200px;
-            -webkit-animation: spin 2s linear infinite;
-            /* Safari */
-            animation: spin 2s linear infinite;
-        }
-        
-        @-webkit-keyframes spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-            }
-            100% {
-                -webkit-transform: rotate(360deg);
-            }
-        }
-        
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="myCSS.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
-    <script>
-        /**
-         * @author SOSELab@NTOU <albert@ntou.edu.tw>
-         */
-
-        let dataSourceUrl = "https://corona.lmao.ninja/countries?sort=country";
-        let countryListUrl = "countries.json";
-        let countryMap = new Map();
-        let fieldNames = ["flag", "country", "cases", "deaths", "active", "todayCases", "todayDeaths"];
-        let sortType = ["asc", "asc", "asc", "asc", "asc", "asc", "asc"];
-        let covid19Data;
-
-        $(function() {
-            buildCountryMap();
-            $("#taiwan").hide();
-            $.getJSON(dataSourceUrl, function(data) {
-                data.reverse();
-                covid19Data = data;
-                showTable();
-            });
-            setFilterDataBtn();
-        });
-
-        function buildCountryMap() {
-            $.getJSON(countryListUrl, function(data) {
-                for (idx in data) {
-                    countryMap.set(data[idx].country, data[idx].chineseCountryName);
-                }
-            });
-        }
-
-        function showTable() {
-            let googleUrlPrefix = "https://www.google.com/search?q=";
-            $("#myTable").empty();
-            let idx, date;
-            if (covid19Data) {
-                for (idx in covid19Data) {
-                    let countryName = covid19Data[idx].country;
-                    let content =
-                        "<tr id='tr-" + countryName + "' >" +
-                        "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img height='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
-                        "<td>" + countryName + (countryMap.get(countryName) ? " (" + countryMap.get(countryName) + ")" : "") + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].active.toLocaleString() + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].todayCases.toLocaleString() + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].todayDeaths.toLocaleString() + "</td>" +
-                        "</tr>";
-
-                    console.log("idx:" + idx);
-                    $("#myTable").append(content);
-                }
-
-                let updated = "Updated: " + new Date(covid19Data[idx].updated);
-                console.log(updated);
-                $("#update").html(updated);
-                $("#loading").hide();
-                $("#taiwan").show();
-            }
-        }
-
-        function sortData(fieldNumber) {
-
-            covid19Data.sort(function(a, b) {
-                if (sortType[fieldNumber] == "asc") {
-                    if (a[fieldNames[fieldNumber]] > b[fieldNames[fieldNumber]])
-                        return -1;
-                    else return 1;
-                } else if (sortType[fieldNumber] == "desc") {
-                    if (a[fieldNames[fieldNumber]] < b[fieldNames[fieldNumber]])
-                        return -1;
-                    else return 1;
-                }
-            });
-
-            if (sortType[fieldNumber] == "asc") {
-                clearClass();
-                $("#sort-style-" + fieldNumber).addClass("arrow-down");
-                sortType[fieldNumber] = "desc";
-            } else if (sortType[fieldNumber] == "desc") {
-                clearClass();
-                $("#sort-style-" + fieldNumber).addClass("arrow-up");
-                sortType[fieldNumber] = "asc";
-            }
-
-            showTable(covid19Data);
-        }
-
-        function clearClass() {
-            for (let i = 1; i <= 6; i++) {
-                $("#sort-style-" + i).removeClass("arrow-up").removeClass("arrow-down");
-            }
-        }
-
-        function setFilterDataBtn() {
-            $("#search").on("click", function() {
-                search();
-            });
-
-            $("#myInput").on("keyup", function(event) {
-                // Number 13 is the "Enter" key on the keyboard
-                if (event.keyCode === 13) {
-                    // Cancel the default action, if needed
-                    event.preventDefault();
-                    search();
-                }
-            });
-        }
-
-        function search(countryName) {
-            //Filter data based on the user input
-            let value = (countryName ? countryName.toLowerCase() : $("#myInput").val().toLowerCase());
-            $("#myTable tr").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-            });
-        }
-    </script>
+    <script type="text/javascript" src="covid19Handler.js"></script>
 </head>
 
 <body>
-
     <h2>COVID-19 Status in the World</h2>
     <div class="loader" id="loading" style="margin:20px;"></div>
 
     <p id="update"></p>
     <p id="taiwan">
-        <a href="javascript:search('Taiwan')">The Taiwan record</a>&nbsp;
+        <a href="javascript:search( 'Taiwan')">The Taiwan record</a>&nbsp;
         <a href="javascript:showTable()">All records</a>
     </p>
     <p><i>Click the headers to sort the table. (Data sources:
@@ -243,7 +53,6 @@
         </thead>
         <tbody id="myTable"></tbody>
     </table>
-
 </body>
 
 </html>
