@@ -8,6 +8,11 @@
     <meta name="author" content="SOSELab@NTOU">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        body {
+            font-family: "Palatino Linotype", "Microsoft YaHei", "LiHei Pro", TW-Kai;
+            font-size: 3.5vmin;
+        }
+        
         table {
             border-spacing: 0;
             width: 100%;
@@ -20,8 +25,8 @@
         
         th,
         td {
-            text-align: left;
-            padding: 16px;
+            text-align: center;
+            padding: 8px;
         }
         
         thead tr,
@@ -76,36 +81,6 @@
     </style>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
-</head>
-
-<body>
-
-
-    <div class="loader" id="loading" style="margin:20px;"></div>
-
-    <p id="update"></p>
-    <p id="taiwan"><a href="#tr-Taiwan">Go to the Taiwan data</a></p>
-    <p><i>Click the headers to sort the table.</i></p>
-
-    <table>
-        <thead>
-            <tr>
-                <!--When a header is clicked, run the sortTable function, with a parameter, 0 for sorting by names, 1 for sorting by country:-->
-                <th class="sortable" onclick="sortData(0)">Country<span id="sort-style-0"></span></th>
-                <th>Flag</th>
-                <th class="sortable" style='text-align:right' onclick="sortData(2)">Cases<span id="sort-style-2"></span>
-                </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(3)">Today Cases<span id="sort-style-3"></span>
-                </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(4)">Deaths<span id="sort-style-4"></span></th>
-                <th class="sortable" style='text-align:right' onclick="sortData(5)">Today Deaths<span id="sort-style-5"></span>
-                </th>
-                <th class="sortable" style='text-align:right' onclick="sortData(6)">Active<span id="sort-style-6"></span></th>
-            </tr>
-        </thead>
-        <tbody id="myTable"></tbody>
-    </table>
-
     <script>
         /**
          * @author SOSELab@NTOU <albert@ntou.edu.tw>
@@ -114,7 +89,7 @@
         let dataSourceUrl = "https://corona.lmao.ninja/countries?sort=country";
         let countryListUrl = "countries.json";
         let countryMap = new Map();
-        let fieldNames = ["country", "flag", "cases", "todayCases", "deaths", "todayDeaths", "active"];
+        let fieldNames = ["flag", "country", "cases", "deaths", "active", "todayCases", "todayDeaths"];
         let sortType = ["asc", "asc", "asc", "asc", "asc", "asc", "asc"];
         let covid19Data;
 
@@ -144,14 +119,16 @@
                 for (idx in covid19Data) {
                     let countryName = covid19Data[idx].country;
                     let content =
-                        "<tr><td>" + countryName + " (" + countryMap.get(countryName) + ")</td>" +
-                        "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "'><img width='60px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].cases + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].todayCases + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].deaths + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].todayDeaths + "</td>" +
-                        "<td style='text-align:right'>" + covid19Data[idx].active + "</td>" +
+                        "<tr id='tr-" + countryName + "' >" +
+                        "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "'><img height='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
+                        "<td>" + countryName + (countryMap.get(countryName) ? " (" + countryMap.get(countryName) + ")" : "") + "</td>" +
+                        "<td style='text-align:right'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
+                        "<td style='text-align:right'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
+                        "<td style='text-align:right'>" + covid19Data[idx].active.toLocaleString() + "</td>" +
+                        "<td style='text-align:right'>" + covid19Data[idx].todayCases.toLocaleString() + "</td>" +
+                        "<td style='text-align:right'>" + covid19Data[idx].todayDeaths.toLocaleString() + "</td>" +
                         "</tr>";
+
                     console.log("idx:" + idx);
                     $("#myTable").append(content);
                 }
@@ -193,12 +170,45 @@
         }
 
         function clearClass() {
-            for (let i = 0; i <= 6; i++) {
-                if (i == 1) continue;
+            for (let i = 1; i <= 6; i++) {
                 $("#sort-style-" + i).removeClass("arrow-up").removeClass("arrow-down");
             }
         }
     </script>
+</head>
+
+<body>
+
+
+    <div class="loader" id="loading" style="margin:20px;"></div>
+
+    <p id="update"></p>
+    <p id="taiwan"><a href="#tr-Taiwan">Go to the Taiwan data</a></p>
+    <p><i>Click the headers to sort the table.</i></p>
+
+    <table>
+        <thead>
+            <tr>
+                <!--When a header is clicked, run the sortTable function, with a parameter, 0 for sorting by names, 1 for sorting by country:-->
+                <th>Country Flag</th>
+                <th class="sortable" onclick="sortData(1)">Country<span id="sort-style-1"></span>
+                </th>
+                <th class="sortable" style='text-align:right' onclick="sortData(2)">Cases<span id="sort-style-2"></span>
+                </th>
+                <th class="sortable" style='text-align:right' onclick="sortData(3)">Deaths<span id="sort-style-4"></span>
+                </th>
+                <th class="sortable" style='text-align:right' onclick="sortData(4)">Active<span id="sort-style-6"></span>
+                </th>
+                <th class="sortable" style='text-align:right' onclick="sortData(5)">Today Cases<span id="sort-style-3"></span>
+                </th>
+                <th class="sortable" style='text-align:right' onclick="sortData(6)">Today Deaths<span id="sort-style-5"></span>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="myTable"></tbody>
+    </table>
+
+
 
 </body>
 
