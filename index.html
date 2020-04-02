@@ -19,7 +19,7 @@
 
     <p id="update"></p>
     <p id="taiwan">
-        <a href="javascript:search( 'Taiwan')">The Taiwan record</a>&nbsp;
+        <a href="javascript:search('Taiwan')">The Taiwan record</a>&nbsp;
         <a href="javascript:showTable()">All records</a>
     </p>
     <p><i>Click the headers to sort the table. (Data sources:
@@ -29,8 +29,8 @@
     </p>
     <p>
         <label>Input the country name to search records:
-            <input id="myInput" type="search" placeholder="Ex: Japan" />
-            <input id="search" type="button" value="Search" /></label>
+            <input class="enlarge" id="myInput" type="search" placeholder="Ex: Japan" />
+            <input class="enlarge" id="search" type="button" value="Search" /></label>
     </p>
 
     <table>
@@ -45,9 +45,11 @@
                 </th>
                 <th id="field-4" class="sortable" style='text-align:right' onclick="sortData(4)">Active Cases&nbsp;<span id="sort-style-4">&nbsp;</span>
                 </th>
-                <th id="field-5" class="sortable" style='text-align:right' onclick="sortData(5)">Today Cases&nbsp;<span id="sort-style-5">&nbsp;</span>
+                <th id="field-5" class="sortable optional" style='text-align:right' onclick="sortData(5)">Today Cases&nbsp;
+                    <span id="sort-style-5">&nbsp;</span>
                 </th>
-                <th id="field-6" class="sortable" style='text-align:right' onclick="sortData(6)">Today Deaths&nbsp;<span id="sort-style-6">&nbsp;</span>
+                <th id="field-6" class="sortable optional" style='text-align:right' onclick="sortData(6)">Today Deaths&nbsp;
+                    <span id="sort-style-6">&nbsp;</span>
                 </th>
             </tr>
         </thead>
