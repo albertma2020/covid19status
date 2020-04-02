@@ -36,7 +36,7 @@ function showTable() {
             let countryName = covid19Data[idx].country;
             let content =
                 "<tr id='tr-" + countryName + "' >" +
-                "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img height='25px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
+                "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img width='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
                 "<td>" + countryName + (countryMap.get(countryName) ? "<br>(" + countryMap.get(countryName) + ")" : "<br>(" + countryName + ")") + "</td>" +
                 "<td class='number'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
                 "<td class='number'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
