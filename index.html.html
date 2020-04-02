@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sort a HTML Table Alphabetically</title>
+    <!-- referece: https://www.w3schools.com/howto/howto_js_sort_table.asp-->
+    <style>
+        table {
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+        
+        th {
+            cursor: pointer;
+        }
+        
+        th,
+        td {
+            text-align: left;
+            padding: 16px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+        
+        .arrow-up {
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid black;
+        }
+        
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid black;
+        }
+        
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 200px;
+            height: 200px;
+            -webkit-animation: spin 2s linear infinite;
+            /* Safari */
+            animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</head>
+
+<body>
+
+    <p><strong>Click the headers to sort the table.</strong></p>
+
+    <p id="update"></p>
+    <p id="taiwan"><a href="#tr-Taiwan">Go to the Taiwan data</a></p>
+
+    <div class="loader" id="loading" style="margin:20px;"></div>
+
+    <table id="myTable">
+        <tr>
+            <!--When a header is clicked, run the sortTable function, with a parameter, 0 for sorting by names, 1 for sorting by country:-->
+            <th onclick="sortTable(0)">Country<span id="sort-style-0"></span></th>
+            <th>Flag</th>
+            <th style='text-align:right' onclick="sortTable(2, true)">Cases<span id="sort-style-2"></span></th>
+            <th style='text-align:right' onclick="sortTable(3, true)">Today Cases<span id="sort-style-3"></span></th>
+            <th style='text-align:right' onclick="sortTable(4, true)">Deaths<span id="sort-style-4"></span></th>
+            <th style='text-align:right' onclick="sortTable(5, true)">Today Deaths<span id="sort-style-5"></span></th>
+            <th style='text-align:right' onclick="sortTable(6, true)">Active<span id="sort-style-6"></span></th>
+        </tr>
+    </table>
+
+    <script>
+        let jsonUrl = "https://corona.lmao.ninja/countries?sort=country";
+        $("#taiwan").hide();
+        $.getJSON(jsonUrl, function(data) {
+            let idx, date;
+            if (data) {
+                for (idx in data) {
+                    let content =
+                        "<tr id = 'tr-" + data[idx].country + "'>" +
+                        "<td>" + data[idx].country + "</td>" +
+                        "<td><img width='60px' src='" + data[idx].countryInfo.flag + "' /></td>" +
+                        "<td style='text-align:right'>" + data[idx].cases + "</td>" +
+                        "<td style='text-align:right'>" + data[idx].todayCases + "</td>" +
+                        "<td style='text-align:right'>" + data[idx].deaths + "</td>" +
+                        "<td style='text-align:right'>" + data[idx].todayDeaths + "</td>" +
+                        "<td style='text-align:right'>" + data[idx].active + "</td>" +
+                        "</tr>";
+                    console.log("idx:" + idx);
+                    $("#myTable").append(content);
+                }
+
+                let updated = "<i>Updated: " + new Date(data[idx].updated) +
+                    "</i>";
+                console.log(updated);
+                $("#update").html(updated);
+                $("#loading").hide();
+                $("#taiwan").show();
+                //sortTable(2);
+            }
+        });
+
+        function sortTable(n, isNumber) {
+            $("#updated").append("<i>loading...</i>");
+
+            let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            table = document.getElementById("myTable");
+            switching = true;
+            //Set the sorting direction to ascending:
+            dir = "asc";
+            /*Make a loop that will continue until 
+            no switching has been done:*/
+            while (switching) {
+
+                switching = false;
+                rows = table.rows;
+
+                for (i = 1; i < (rows.length - 1); i++) {
+
+                    shouldSwitch = false;
+
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+
+                    if (dir == "asc") {
+                        if (isNumber) {
+                            shouldSwitch = parseInt(x.innerHTML.toLowerCase()) > parseInt(y.innerHTML.toLowerCase());
+                        } else {
+                            shouldSwitch = x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase();
+                        }
+                        if (shouldSwitch) {
+                            break;
+                        }
+
+                    } else if (dir == "desc") {
+                        if (isNumber) {
+                            shouldSwitch = parseInt(x.innerHTML.toLowerCase()) < parseInt(y.innerHTML.toLowerCase());
+                        } else {
+                            shouldSwitch = x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase();
+                        }
+                        if (shouldSwitch) {
+                            break;
+                        }
+                        clearClass();
+                        $("#sort-style-" + n).addClass("arrow-down");
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+
+            clearClass();
+            if (dir = "desc") {
+                $("#sort-style-" + n).addClass("arrow-up");
+            } else {
+                $("#sort-style-" + n).addClass("arrow-down");
+            }
+
+        }
+
+        function clearClass() {
+            for (let i = 0; i <= 6; i++) {
+                if (i == 1) continue;
+                $("#sort-style-" + i).removeClass("arrow-up").removeClass("arrow-down");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

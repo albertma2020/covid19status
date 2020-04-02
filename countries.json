@@ -1,0 +1,822 @@
+[
+  {
+    "country": "Zimbabwe",
+    "chineseCountryName": "辛巴威"
+  },
+  {
+    "country": "Zambia",
+    "chineseCountryName": "尚比亞"
+  },
+  {
+    "country": "Vietnam",
+    "chineseCountryName": "越南"
+  },
+  {
+    "country": "Venezuela",
+    "chineseCountryName": "委內瑞拉"
+  },
+  {
+    "country": "Vatican City",
+    "chineseCountryName": "梵蒂岡"
+  },
+  {
+    "country": "Uzbekistan",
+    "chineseCountryName": "烏茲別克"
+  },
+  {
+    "country": "Uruguay",
+    "chineseCountryName": "烏拉圭"
+  },
+  {
+    "country": "Ukraine",
+    "chineseCountryName": "烏克蘭"
+  },
+  {
+    "country": "Uganda",
+    "chineseCountryName": "烏干達"
+  },
+  {
+    "country": "USA",
+    "chineseCountryName": "美國"
+  },
+  {
+    "country": "UK",
+    "chineseCountryName": "英國"
+  },
+  {
+    "country": "UAE",
+    "chineseCountryName": "阿拉伯聯合大公國"
+  },
+  {
+    "country": "Turks and Caicos",
+    "chineseCountryName": "土克斯及開科斯群島"
+  },
+  {
+    "country": "Turkey",
+    "chineseCountryName": "土耳其"
+  },
+  {
+    "country": "Tunisia",
+    "chineseCountryName": "突尼西亞"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "chineseCountryName": "千里達及托巴哥"
+  },
+  {
+    "country": "Togo",
+    "chineseCountryName": "多哥"
+  },
+  {
+    "country": "Timor-Leste",
+    "chineseCountryName": "東帝汶"
+  },
+  {
+    "country": "Thailand",
+    "chineseCountryName": "泰國"
+  },
+  {
+    "country": "Tanzania",
+    "chineseCountryName": "坦尚尼亞"
+  },
+  {
+    "country": "Taiwan",
+    "chineseCountryName": "台灣"
+  },
+  {
+    "country": "Syria",
+    "chineseCountryName": "敘利亞"
+  },
+  {
+    "country": "Switzerland",
+    "chineseCountryName": "瑞士"
+  },
+  {
+    "country": "Sweden",
+    "chineseCountryName": "瑞典"
+  },
+  {
+    "country": "Suriname",
+    "chineseCountryName": "蘇利南"
+  },
+  {
+    "country": "Sudan",
+    "chineseCountryName": "蘇丹"
+  },
+  {
+    "country": "St. Vincent Grenadines",
+    "chineseCountryName": "聖文森及格瑞那丁"
+  },
+  {
+    "country": "St. Barth",
+    "chineseCountryName": "聖巴瑟米"
+  },
+  {
+    "country": "Sri Lanka",
+    "chineseCountryName": "斯里蘭卡"
+  },
+  {
+    "country": "Spain",
+    "chineseCountryName": "西班牙"
+  },
+  {
+    "country": "South Africa",
+    "chineseCountryName": "南非"
+  },
+  {
+    "country": "Somalia",
+    "chineseCountryName": "索馬利亞"
+  },
+  {
+    "country": "Slovenia",
+    "chineseCountryName": "斯洛維尼亞"
+  },
+  {
+    "country": "Slovakia",
+    "chineseCountryName": "斯洛伐克"
+  },
+  {
+    "country": "Sint Maarten",
+    "chineseCountryName": "荷屬聖馬丁"
+  },
+  {
+    "country": "Singapore",
+    "chineseCountryName": "新加坡"
+  },
+  {
+    "country": "Sierra Leone",
+    "chineseCountryName": "獅子山"
+  },
+  {
+    "country": "Seychelles",
+    "chineseCountryName": "塞席爾"
+  },
+  {
+    "country": "Serbia",
+    "chineseCountryName": "塞爾維亞"
+  },
+  {
+    "country": "Senegal",
+    "chineseCountryName": "塞內加爾"
+  },
+  {
+    "country": "Saudi Arabia",
+    "chineseCountryName": "沙烏地阿拉伯"
+  },
+  {
+    "country": "San Marino",
+    "chineseCountryName": "聖馬利諾"
+  },
+  {
+    "country": "Saint Martin",
+    "chineseCountryName": "荷屬聖馬丁"
+  },
+  {
+    "country": "Saint Lucia",
+    "chineseCountryName": "聖露西亞"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "chineseCountryName": "聖克里斯多福及尼維斯"
+  },
+  {
+    "country": "S. Korea",
+    "chineseCountryName": "南韓"
+  },
+  {
+    "country": "Réunion",
+    "chineseCountryName": "留尼旺"
+  },
+  {
+    "country": "Rwanda",
+    "chineseCountryName": "盧安達"
+  },
+  {
+    "country": "Russia",
+    "chineseCountryName": "俄羅斯"
+  },
+  {
+    "country": "Romania",
+    "chineseCountryName": "羅馬尼亞"
+  },
+  {
+    "country": "Qatar",
+    "chineseCountryName": "卡達"
+  },
+  {
+    "country": "Portugal",
+    "chineseCountryName": "葡萄牙"
+  },
+  {
+    "country": "Poland",
+    "chineseCountryName": "波蘭"
+  },
+  {
+    "country": "Philippines",
+    "chineseCountryName": "菲律賓"
+  },
+  {
+    "country": "Peru",
+    "chineseCountryName": "秘魯"
+  },
+  {
+    "country": "Paraguay",
+    "chineseCountryName": "巴拉圭"
+  },
+  {
+    "country": "Papua New Guinea",
+    "chineseCountryName": "巴布亞紐幾內亞"
+  },
+  {
+    "country": "Panama",
+    "chineseCountryName": "巴拿馬"
+  },
+  {
+    "country": "Palestine",
+    "chineseCountryName": "巴勒斯坦"
+  },
+  {
+    "country": "Pakistan",
+    "chineseCountryName": "巴基斯坦"
+  },
+  {
+    "country": "Oman",
+    "chineseCountryName": "阿曼"
+  },
+  {
+    "country": "Norway",
+    "chineseCountryName": "挪威"
+  },
+  {
+    "country": "North Macedonia",
+    "chineseCountryName": "北馬其頓"
+  },
+  {
+    "country": "Nigeria",
+    "chineseCountryName": "奈及利亞"
+  },
+  {
+    "country": "Niger",
+    "chineseCountryName": "尼日"
+  },
+  {
+    "country": "Nicaragua",
+    "chineseCountryName": "尼加拉瓜"
+  },
+  {
+    "country": "New Zealand",
+    "chineseCountryName": "紐西蘭"
+  },
+  {
+    "country": "New Caledonia",
+    "chineseCountryName": "新喀里多尼亞"
+  },
+  {
+    "country": "Netherlands",
+    "chineseCountryName": "荷蘭"
+  },
+  {
+    "country": "Nepal",
+    "chineseCountryName": "尼泊爾"
+  },
+  {
+    "country": "Namibia",
+    "chineseCountryName": "納米比亞"
+  },
+  {
+    "country": "Myanmar",
+    "chineseCountryName": "緬甸"
+  },
+  {
+    "country": "Mozambique",
+    "chineseCountryName": "莫三比克"
+  },
+  {
+    "country": "Morocco",
+    "chineseCountryName": "摩洛哥"
+  },
+  {
+    "country": "Montserrat",
+    "chineseCountryName": "蒙哲臘"
+  },
+  {
+    "country": "Montenegro",
+    "chineseCountryName": "蒙特內哥羅"
+  },
+  {
+    "country": "Mongolia",
+    "chineseCountryName": "蒙古"
+  },
+  {
+    "country": "Monaco",
+    "chineseCountryName": "摩納哥"
+  },
+  {
+    "country": "Moldova",
+    "chineseCountryName": "摩爾多瓦"
+  },
+  {
+    "country": "Mexico",
+    "chineseCountryName": "墨西哥"
+  },
+  {
+    "country": "Mayotte",
+    "chineseCountryName": "馬約特島"
+  },
+  {
+    "country": "Mauritius",
+    "chineseCountryName": "模里西斯"
+  },
+  {
+    "country": "Mauritania",
+    "chineseCountryName": "茅利塔尼亞"
+  },
+  {
+    "country": "Martinique",
+    "chineseCountryName": "馬丁尼克"
+  },
+  {
+    "country": "Malta",
+    "chineseCountryName": "馬爾他"
+  },
+  {
+    "country": "Mali",
+    "chineseCountryName": "馬利"
+  },
+  {
+    "country": "Maldives",
+    "chineseCountryName": "馬爾地夫"
+  },
+  {
+    "country": "Malaysia",
+    "chineseCountryName": "馬來西亞"
+  },
+  {
+    "country": "Madagascar",
+    "chineseCountryName": "馬達加斯加"
+  },
+  {
+    "country": "Macao",
+    "chineseCountryName": "澳門"
+  },
+  {
+    "country": "MS Zaandam",
+    "chineseCountryName": ""
+  },
+  {
+    "country": "Luxembourg",
+    "chineseCountryName": "盧森堡"
+  },
+  {
+    "country": "Lithuania",
+    "chineseCountryName": "立陶宛"
+  },
+  {
+    "country": "Liechtenstein",
+    "chineseCountryName": "列支敦斯登"
+  },
+  {
+    "country": "Libya",
+    "chineseCountryName": "利比亞"
+  },
+  {
+    "country": "Liberia",
+    "chineseCountryName": "賴比瑞亞"
+  },
+  {
+    "country": "Lebanon",
+    "chineseCountryName": "黎巴嫩"
+  },
+  {
+    "country": "Latvia",
+    "chineseCountryName": "拉脫維亞"
+  },
+  {
+    "country": "Laos",
+    "chineseCountryName": "寮國"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "chineseCountryName": "吉爾吉斯"
+  },
+  {
+    "country": "Kuwait",
+    "chineseCountryName": "科威特"
+  },
+  {
+    "country": "Kenya",
+    "chineseCountryName": "肯亞"
+  },
+  {
+    "country": "Kazakhstan",
+    "chineseCountryName": "哈薩克"
+  },
+  {
+    "country": "Jordan",
+    "chineseCountryName": "約旦"
+  },
+  {
+    "country": "Japan",
+    "chineseCountryName": "日本"
+  },
+  {
+    "country": "Jamaica",
+    "chineseCountryName": "牙買加"
+  },
+  {
+    "country": "Ivory Coast",
+    "chineseCountryName": "象牙海岸"
+  },
+  {
+    "country": "Italy",
+    "chineseCountryName": "義大利"
+  },
+  {
+    "country": "Israel",
+    "chineseCountryName": "以色列"
+  },
+  {
+    "country": "Isle of Man",
+    "chineseCountryName": "曼島"
+  },
+  {
+    "country": "Ireland",
+    "chineseCountryName": "愛爾蘭"
+  },
+  {
+    "country": "Iraq",
+    "chineseCountryName": "伊拉克"
+  },
+  {
+    "country": "Iran",
+    "chineseCountryName": "伊朗"
+  },
+  {
+    "country": "Indonesia",
+    "chineseCountryName": "印尼"
+  },
+  {
+    "country": "India",
+    "chineseCountryName": "印度"
+  },
+  {
+    "country": "Iceland",
+    "chineseCountryName": "冰島"
+  },
+  {
+    "country": "Hungary",
+    "chineseCountryName": "匈牙利"
+  },
+  {
+    "country": "Hong Kong",
+    "chineseCountryName": "香港"
+  },
+  {
+    "country": "Honduras",
+    "chineseCountryName": "宏都拉斯"
+  },
+  {
+    "country": "Haiti",
+    "chineseCountryName": "海地"
+  },
+  {
+    "country": "Guyana",
+    "chineseCountryName": "蓋亞那"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "chineseCountryName": "幾內亞比索"
+  },
+  {
+    "country": "Guinea",
+    "chineseCountryName": "幾內亞"
+  },
+  {
+    "country": "Guatemala",
+    "chineseCountryName": "瓜地馬拉"
+  },
+  {
+    "country": "Guadeloupe",
+    "chineseCountryName": "瓜地洛普"
+  },
+  {
+    "country": "Grenada",
+    "chineseCountryName": "格瑞那達"
+  },
+  {
+    "country": "Greenland",
+    "chineseCountryName": "格陵蘭"
+  },
+  {
+    "country": "Greece",
+    "chineseCountryName": "希臘"
+  },
+  {
+    "country": "Gibraltar",
+    "chineseCountryName": "直布羅陀"
+  },
+  {
+    "country": "Ghana",
+    "chineseCountryName": "迦納"
+  },
+  {
+    "country": "Germany",
+    "chineseCountryName": "德國"
+  },
+  {
+    "country": "Georgia",
+    "chineseCountryName": "喬治亞"
+  },
+  {
+    "country": "Gambia",
+    "chineseCountryName": "甘比亞"
+  },
+  {
+    "country": "Gabon",
+    "chineseCountryName": "加彭"
+  },
+  {
+    "country": "French Polynesia",
+    "chineseCountryName": "法屬玻里尼西亞"
+  },
+  {
+    "country": "French Guiana",
+    "chineseCountryName": "法屬圭亞那"
+  },
+  {
+    "country": "France",
+    "chineseCountryName": "法國"
+  },
+  {
+    "country": "Finland",
+    "chineseCountryName": "芬蘭"
+  },
+  {
+    "country": "Fiji",
+    "chineseCountryName": "斐濟"
+  },
+  {
+    "country": "Faeroe Islands",
+    "chineseCountryName": "法羅群島"
+  },
+  {
+    "country": "Ethiopia",
+    "chineseCountryName": "衣索比亞"
+  },
+  {
+    "country": "Eswatini",
+    "chineseCountryName": "史瓦帝尼王國"
+  },
+  {
+    "country": "Estonia",
+    "chineseCountryName": "愛沙尼亞"
+  },
+  {
+    "country": "Eritrea",
+    "chineseCountryName": "厄利垂亞"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "chineseCountryName": "赤道幾內亞"
+  },
+  {
+    "country": "El Salvador",
+    "chineseCountryName": "薩爾瓦多"
+  },
+  {
+    "country": "Egypt",
+    "chineseCountryName": "埃及"
+  },
+  {
+    "country": "Ecuador",
+    "chineseCountryName": "厄瓜多"
+  },
+  {
+    "country": "Dominican Republic",
+    "chineseCountryName": "多明尼加共和國"
+  },
+  {
+    "country": "Dominica",
+    "chineseCountryName": "多米尼克"
+  },
+  {
+    "country": "Djibouti",
+    "chineseCountryName": "吉布地"
+  },
+  {
+    "country": "Diamond Princess",
+    "chineseCountryName": "鑽石公主號"
+  },
+  {
+    "country": "Denmark",
+    "chineseCountryName": "丹麥"
+  },
+  {
+    "country": "DRC",
+    "chineseCountryName": "剛果民主共和國"
+  },
+  {
+    "country": "Czechia",
+    "chineseCountryName": "捷克"
+  },
+  {
+    "country": "Cyprus",
+    "chineseCountryName": "賽普勒斯"
+  },
+  {
+    "country": "Curaçao",
+    "chineseCountryName": "庫拉索"
+  },
+  {
+    "country": "Cuba",
+    "chineseCountryName": "古巴"
+  },
+  {
+    "country": "Croatia",
+    "chineseCountryName": "克羅埃西亞"
+  },
+  {
+    "country": "Costa Rica",
+    "chineseCountryName": "哥斯大黎加"
+  },
+  {
+    "country": "Congo",
+    "chineseCountryName": "剛果民主共和國"
+  },
+  {
+    "country": "Colombia",
+    "chineseCountryName": "哥倫比亞"
+  },
+  {
+    "country": "China",
+    "chineseCountryName": "中國"
+  },
+  {
+    "country": "Chile",
+    "chineseCountryName": "智利"
+  },
+  {
+    "country": "Channel Islands",
+    "chineseCountryName": ""
+  },
+  {
+    "country": "Chad",
+    "chineseCountryName": "查德"
+  },
+  {
+    "country": "Cayman Islands",
+    "chineseCountryName": "開曼群島"
+  },
+  {
+    "country": "Caribbean Netherlands",
+    "chineseCountryName": "荷蘭加勒比區"
+  },
+  {
+    "country": "Canada",
+    "chineseCountryName": "加拿大"
+  },
+  {
+    "country": "Cameroon",
+    "chineseCountryName": "喀麥隆"
+  },
+  {
+    "country": "Cambodia",
+    "chineseCountryName": "柬埔寨"
+  },
+  {
+    "country": "Cabo Verde",
+    "chineseCountryName": "維德角"
+  },
+  {
+    "country": "CAR",
+    "chineseCountryName": "中非共和國"
+  },
+  {
+    "country": "Burundi",
+    "chineseCountryName": "蒲隆地"
+  },
+  {
+    "country": "Burkina Faso",
+    "chineseCountryName": "布吉納法索"
+  },
+  {
+    "country": "Bulgaria",
+    "chineseCountryName": "保加利亞"
+  },
+  {
+    "country": "Brunei",
+    "chineseCountryName": "汶萊"
+  },
+  {
+    "country": "British Virgin Islands",
+    "chineseCountryName": "英屬維京群島"
+  },
+  {
+    "country": "Brazil",
+    "chineseCountryName": "巴西"
+  },
+  {
+    "country": "Botswana",
+    "chineseCountryName": "波札那"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "chineseCountryName": "波士尼亞與赫塞哥維納"
+  },
+  {
+    "country": "Bolivia",
+    "chineseCountryName": "玻利維亞"
+  },
+  {
+    "country": "Bhutan",
+    "chineseCountryName": "不丹"
+  },
+  {
+    "country": "Bermuda",
+    "chineseCountryName": "百慕達"
+  },
+  {
+    "country": "Benin",
+    "chineseCountryName": "貝南"
+  },
+  {
+    "country": "Belize",
+    "chineseCountryName": "貝里斯"
+  },
+  {
+    "country": "Belgium",
+    "chineseCountryName": "比利時"
+  },
+  {
+    "country": "Belarus",
+    "chineseCountryName": "白俄羅斯"
+  },
+  {
+    "country": "Barbados",
+    "chineseCountryName": "巴貝多"
+  },
+  {
+    "country": "Bangladesh",
+    "chineseCountryName": "孟加拉"
+  },
+  {
+    "country": "Bahrain",
+    "chineseCountryName": "巴林"
+  },
+  {
+    "country": "Bahamas",
+    "chineseCountryName": "巴哈馬"
+  },
+  {
+    "country": "Azerbaijan",
+    "chineseCountryName": "亞塞拜然"
+  },
+  {
+    "country": "Austria",
+    "chineseCountryName": "奧地利"
+  },
+  {
+    "country": "Australia",
+    "chineseCountryName": "澳洲"
+  },
+  {
+    "country": "Aruba",
+    "chineseCountryName": "荷屬阿魯巴"
+  },
+  {
+    "country": "Armenia",
+    "chineseCountryName": "亞美尼亞"
+  },
+  {
+    "country": "Argentina",
+    "chineseCountryName": "阿根廷"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "chineseCountryName": "安地卡及巴布達"
+  },
+  {
+    "country": "Anguilla",
+    "chineseCountryName": "安奎拉"
+  },
+  {
+    "country": "Angola",
+    "chineseCountryName": "安哥拉"
+  },
+  {
+    "country": "Andorra",
+    "chineseCountryName": "安道爾"
+  },
+  {
+    "country": "Algeria",
+    "chineseCountryName": "阿爾及利亞"
+  },
+  {
+    "country": "Albania",
+    "chineseCountryName": "阿爾巴尼亞"
+  },
+  {
+    "country": "Afghanistan",
+    "chineseCountryName": "阿富汗"
+  }
+]
