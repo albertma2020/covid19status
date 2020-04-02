@@ -36,7 +36,7 @@ function showTable() {
             let countryName = covid19Data[idx].country;
             let content =
                 "<tr id='tr-" + countryName + "' >" +
-                "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img height='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
+                "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img height='30px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
                 "<td>" + countryName + (countryMap.get(countryName) ? " (" + countryMap.get(countryName) + ")" : "") + "</td>" +
                 "<td style='text-align:right'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
                 "<td style='text-align:right'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
@@ -68,21 +68,13 @@ function sortData(fieldNumber) {
         }
     });
     if (sortType[fieldNumber] == "asc") {
-        clearClass();
-        $("#sort-style-" + fieldNumber).html("").addClass("arrow-down");
+        $("#sort-style-" + fieldNumber).html("⬇");
         sortType[fieldNumber] = "desc";
     } else if (sortType[fieldNumber] == "desc") {
-        clearClass();
-        $("#sort-style-" + fieldNumber).html("").addClass("arrow-up");
+        $("#sort-style-" + fieldNumber).html("⬆");
         sortType[fieldNumber] = "asc";
     }
     showTable(covid19Data);
-}
-
-function clearClass() {
-    for (let i = 1; i <= 6; i++) {
-        $("#sort-style-" + i).removeClass("arrow-up").removeClass("arrow-down");
-    }
 }
 
 function setFilterDataBtn() {
