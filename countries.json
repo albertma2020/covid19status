@@ -16,10 +16,6 @@
     "chineseCountryName": "委內瑞拉"
   },
   {
-    "country": "Vatican City",
-    "chineseCountryName": "梵蒂岡"
-  },
-  {
     "country": "Uzbekistan",
     "chineseCountryName": "烏茲別克"
   },
@@ -48,7 +44,7 @@
     "chineseCountryName": "阿拉伯聯合大公國"
   },
   {
-    "country": "Turks and Caicos",
+    "country": "Turks and Caicos Islands",
     "chineseCountryName": "土克斯及開科斯群島"
   },
   {
@@ -76,7 +72,7 @@
     "chineseCountryName": "泰國"
   },
   {
-    "country": "Tanzania",
+    "country": "Tanzania, United Republic of",
     "chineseCountryName": "坦尚尼亞"
   },
   {
@@ -84,7 +80,7 @@
     "chineseCountryName": "台灣"
   },
   {
-    "country": "Syria",
+    "country": "Syrian Arab Republic",
     "chineseCountryName": "敘利亞"
   },
   {
@@ -96,16 +92,16 @@
     "chineseCountryName": "瑞典"
   },
   {
+    "country": "Swaziland",
+    "chineseCountryName": "史瓦帝尼王國"
+  },
+  {
     "country": "Suriname",
     "chineseCountryName": "蘇利南"
   },
   {
     "country": "Sudan",
     "chineseCountryName": "蘇丹"
-  },
-  {
-    "country": "St. Vincent Grenadines",
-    "chineseCountryName": "聖文森及格瑞那丁"
   },
   {
     "country": "St. Barth",
@@ -166,6 +162,10 @@
   {
     "country": "San Marino",
     "chineseCountryName": "聖馬利諾"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "chineseCountryName": "聖文森及格瑞那丁"
   },
   {
     "country": "Saint Martin",
@@ -232,8 +232,8 @@
     "chineseCountryName": "巴拿馬"
   },
   {
-    "country": "Palestine",
-    "chineseCountryName": "巴勒斯坦"
+    "country": "Palestinian Territory, Occupied",
+    "chineseCountryName": ""
   },
   {
     "country": "Pakistan",
@@ -246,10 +246,6 @@
   {
     "country": "Norway",
     "chineseCountryName": "挪威"
-  },
-  {
-    "country": "North Macedonia",
-    "chineseCountryName": "北馬其頓"
   },
   {
     "country": "Nigeria",
@@ -312,7 +308,7 @@
     "chineseCountryName": "摩納哥"
   },
   {
-    "country": "Moldova",
+    "country": "Moldova, Republic of",
     "chineseCountryName": "摩爾多瓦"
   },
   {
@@ -352,8 +348,16 @@
     "chineseCountryName": "馬來西亞"
   },
   {
+    "country": "Malawi",
+    "chineseCountryName": "馬拉威"
+  },
+  {
     "country": "Madagascar",
     "chineseCountryName": "馬達加斯加"
+  },
+  {
+    "country": "Macedonia",
+    "chineseCountryName": "北馬其頓"
   },
   {
     "country": "Macao",
@@ -376,7 +380,7 @@
     "chineseCountryName": "列支敦斯登"
   },
   {
-    "country": "Libya",
+    "country": "Libyan Arab Jamahiriya",
     "chineseCountryName": "利比亞"
   },
   {
@@ -392,7 +396,7 @@
     "chineseCountryName": "拉脫維亞"
   },
   {
-    "country": "Laos",
+    "country": "Lao People\u0027s Democratic Republic",
     "chineseCountryName": "寮國"
   },
   {
@@ -422,10 +426,6 @@
   {
     "country": "Jamaica",
     "chineseCountryName": "牙買加"
-  },
-  {
-    "country": "Ivory Coast",
-    "chineseCountryName": "象牙海岸"
   },
   {
     "country": "Italy",
@@ -474,6 +474,10 @@
   {
     "country": "Honduras",
     "chineseCountryName": "宏都拉斯"
+  },
+  {
+    "country": "Holy See (Vatican City State)",
+    "chineseCountryName": "梵蒂岡"
   },
   {
     "country": "Haiti",
@@ -556,16 +560,12 @@
     "chineseCountryName": "斐濟"
   },
   {
-    "country": "Faeroe Islands",
+    "country": "Faroe Islands",
     "chineseCountryName": "法羅群島"
   },
   {
     "country": "Ethiopia",
     "chineseCountryName": "衣索比亞"
-  },
-  {
-    "country": "Eswatini",
-    "chineseCountryName": "史瓦帝尼王國"
   },
   {
     "country": "Estonia",
@@ -605,7 +605,7 @@
   },
   {
     "country": "Diamond Princess",
-    "chineseCountryName": "鑽石公主號"
+    "chineseCountryName": ""
   },
   {
     "country": "Denmark",
@@ -614,6 +614,10 @@
   {
     "country": "DRC",
     "chineseCountryName": "剛果民主共和國"
+  },
+  {
+    "country": "Côte d\u0027Ivoire",
+    "chineseCountryName": "象牙海岸"
   },
   {
     "country": "Czechia",
@@ -664,6 +668,10 @@
     "chineseCountryName": "查德"
   },
   {
+    "country": "Central African Republic",
+    "chineseCountryName": "中非共和國"
+  },
+  {
     "country": "Cayman Islands",
     "chineseCountryName": "開曼群島"
   },
@@ -686,10 +694,6 @@
   {
     "country": "Cabo Verde",
     "chineseCountryName": "維德角"
-  },
-  {
-    "country": "CAR",
-    "chineseCountryName": "中非共和國"
   },
   {
     "country": "Burundi",
@@ -720,7 +724,7 @@
     "chineseCountryName": "波札那"
   },
   {
-    "country": "Bosnia and Herzegovina",
+    "country": "Bosnia",
     "chineseCountryName": "波士尼亞與赫塞哥維納"
   },
   {
