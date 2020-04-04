@@ -27,7 +27,10 @@ function buildCountryMap() {
     });
 }
 
-function showTable() {
+function showTable(initial) {
+    if (initial) {
+        clearHighlight();
+    }
     let googleUrlPrefix = "https://www.google.com/search?q=";
     $("#myTable").empty();
     let idx, date;
@@ -56,7 +59,6 @@ function showTable() {
 }
 
 function sortData(fieldNumber) {
-
     covid19Data.sort(function(a, b) {
         if (sortType[fieldNumber] == "asc") {
             if (a[fieldNames[fieldNumber]] > b[fieldNames[fieldNumber]]) return -1;
@@ -77,7 +79,7 @@ function sortData(fieldNumber) {
         $("#sort-style-" + fieldNumber).html("▲"); //replace ⬆
         sortType[fieldNumber] = "asc";
     }
-    showTable(covid19Data);
+    showTable();
 }
 
 function clearHighlight() {
@@ -102,6 +104,7 @@ function setFilterDataBtn() {
 }
 
 function search(countryName) {
+    clearHighlight();
     //Filter data based on the user input 
     let value = (countryName ? countryName.toLowerCase() : $("#myInput").val().toLowerCase());
     $("#myTable tr").filter(function() {

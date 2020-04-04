@@ -8,6 +8,10 @@
     "chineseCountryName": "尚比亞"
   },
   {
+    "country": "World",
+    "chineseCountryName": ""
+  },
+  {
     "country": "Vietnam",
     "chineseCountryName": "越南"
   },
@@ -564,6 +568,10 @@
     "chineseCountryName": "法羅群島"
   },
   {
+    "country": "Falkland Islands",
+    "chineseCountryName": "福克蘭群島 (馬維納斯群島)"
+  },
+  {
     "country": "Ethiopia",
     "chineseCountryName": "衣索比亞"
   },
@@ -741,7 +749,7 @@
   },
   {
     "country": "Benin",
-    "chineseCountryName": "貝南"
+    "chineseCountryName": ""
   },
   {
     "country": "Belize",
