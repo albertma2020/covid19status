@@ -35,6 +35,7 @@ function showTable(initial) {
     $("#myTable").empty();
     let idx, date;
     if (covid19Data) {
+        let updated = 0;
         for (idx in covid19Data) {
             let countryName = covid19Data[idx].country;
             let content =
@@ -48,11 +49,13 @@ function showTable(initial) {
                 "<td class='number optional'>" + covid19Data[idx].todayDeaths.toLocaleString() + "</td>" +
                 "</tr>";
             $("#myTable").append(content);
+            if (covid19Data[idx].updated > updated) {
+                updated = covid19Data[idx].updated;
+            }
         }
 
-        let updated = "Updated: " + new Date(covid19Data[idx].updated);
-        console.log(updated);
-        $("#update").html(updated);
+        let updatedText = "Updated: " + new Date(updated);
+        $("#update").html(updatedText);
         $("#loading").hide();
         $("#taiwan").show();
     }

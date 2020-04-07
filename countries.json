@@ -168,12 +168,20 @@
     "chineseCountryName": "沙烏地阿拉伯"
   },
   {
+    "country": "Sao Tome and Principe",
+    "chineseCountryName": "聖多美普林西比"
+  },
+  {
     "country": "San Marino",
     "chineseCountryName": "聖馬利諾"
   },
   {
     "country": "Saint Vincent and the Grenadines",
     "chineseCountryName": "聖文森及格瑞那丁"
+  },
+  {
+    "country": "Saint Pierre Miquelon",
+    "chineseCountryName": "聖皮埃與密克隆群島"
   },
   {
     "country": "Saint Martin",
@@ -241,7 +249,7 @@
   },
   {
     "country": "Palestinian Territory, Occupied",
-    "chineseCountryName": ""
+    "chineseCountryName": "巴勒斯坦領土 "
   },
   {
     "country": "Pakistan",
@@ -373,7 +381,7 @@
   },
   {
     "country": "MS Zaandam",
-    "chineseCountryName": ""
+    "chineseCountryName": "MS Zaandam 號"
   },
   {
     "country": "Luxembourg",
@@ -617,7 +625,7 @@
   },
   {
     "country": "Diamond Princess",
-    "chineseCountryName": ""
+    "chineseCountryName": "鑽石公主號"
   },
   {
     "country": "Denmark",
@@ -673,7 +681,7 @@
   },
   {
     "country": "Channel Islands",
-    "chineseCountryName": ""
+    "chineseCountryName": "海峽群島 "
   },
   {
     "country": "Chad",
