@@ -48,11 +48,13 @@ function showTable(initial) {
         let updated = 0;
         for (idx in covid19Data) {
             let countryName = covid19Data[idx].country;
+            covid19Data[idx].continent = (continentMap.get(countryName) ? continentMap.get(countryName) : "N/A");
+
             let content =
                 "<tr id='tr-" + countryName + "' >" +
                 "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img width='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
                 "<td>" + countryName + (countryMap.get(countryName) ? "<br>(" + countryMap.get(countryName) + ")" : "<br>(" + countryName + ")") + "</td>" +
-                "<td class='optional'>" + (continentMap.get(countryName) ? continentMap.get(countryName) : "N/A") + "</td>" +
+                "<td class='optional'>" + covid19Data[idx].continent + "</td>" +
                 "<td class='number'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
                 "<td class='number optional'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
                 "<td class='number'>" + covid19Data[idx].active.toLocaleString() + "</td>" +
