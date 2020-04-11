@@ -4,12 +4,14 @@
 let dataSourceUrl = "https://corona.lmao.ninja/countries?sort=country";
 let countryListUrl = "countries.json";
 let countryMap = new Map();
-let fieldNames = ["flag", "country", "cases", "deaths", "active", "todayCases", "todayDeaths"];
-let sortType = ["asc", "asc", "asc", "asc", "asc", "asc", "asc"];
+let continentMap = new Map();
+let fieldNames = ["flag", "country", "continent", "cases", "deaths", "active", "todayCases", "todayDeaths"];
+let sortType = ["asc", "asc", "asc", "asc", "asc", "asc", "asc", "asc"];
 let covid19Data;
 
 $(function() {
     buildCountryMap();
+    buildContinentMap();
     $("#taiwan").hide();
     $.getJSON(dataSourceUrl, function(data) {
         data.reverse();
@@ -23,6 +25,14 @@ function buildCountryMap() {
     $.getJSON(countryListUrl, function(data) {
         for (idx in data) {
             countryMap.set(data[idx].country, data[idx].chineseCountryName);
+        }
+    });
+}
+
+function buildContinentMap() {
+    $.getJSON(countryListUrl, function(data) {
+        for (idx in data) {
+            countryMap.set(data[idx].country, data[idx].continent);
         }
     });
 }
@@ -42,10 +52,11 @@ function showTable(initial) {
                 "<tr id='tr-" + countryName + "' >" +
                 "<td><a target='_blank' href='" + googleUrlPrefix + countryName + "+country'><img width='40px' src='" + covid19Data[idx].countryInfo.flag + "' /></a></td>" +
                 "<td>" + countryName + (countryMap.get(countryName) ? "<br>(" + countryMap.get(countryName) + ")" : "<br>(" + countryName + ")") + "</td>" +
+                "<td class='optional'>" + (continentMap.get(countryName) ? continentMap.get(countryName) : "N/A") + "</td>" +
                 "<td class='number'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
-                "<td class='number'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
+                "<td class='number optional'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
                 "<td class='number'>" + covid19Data[idx].active.toLocaleString() + "</td>" +
-                "<td class='number optional'>" + covid19Data[idx].todayCases.toLocaleString() + "</td>" +
+                "<td class='number'>" + covid19Data[idx].todayCases.toLocaleString() + "</td>" +
                 "<td class='number optional'>" + covid19Data[idx].todayDeaths.toLocaleString() + "</td>" +
                 "</tr>";
             $("#myTable").append(content);
