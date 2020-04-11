@@ -97,9 +97,9 @@ function sortData(fieldNumber) {
 }
 
 function clearHighlight() {
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= fieldNames.length; i++) {
         $("#field-" + i).css("color", "black");
-        $("#sort-style-" + i).html("&nbsp;");
+        $("#sort-style-" + i).html("");
     }
 }
 
