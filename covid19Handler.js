@@ -56,8 +56,8 @@ function showTable(initial) {
                 "<td>" + countryName + (countryMap.get(countryName) ? "<br>(" + countryMap.get(countryName) + ")" : "<br>(" + countryName + ")") + "</td>" +
                 "<td class='optional'>" + covid19Data[idx].continent + "</td>" +
                 "<td class='number'>" + covid19Data[idx].cases.toLocaleString() + "</td>" +
-                "<td class='number optional'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
-                "<td class='number'>" + covid19Data[idx].active.toLocaleString() + "</td>" +
+                "<td class='number'>" + covid19Data[idx].deaths.toLocaleString() + "</td>" +
+                "<td class='number optional'>" + covid19Data[idx].active.toLocaleString() + "</td>" +
                 "<td class='number'>" + covid19Data[idx].todayCases.toLocaleString() + "</td>" +
                 "<td class='number optional'>" + covid19Data[idx].todayDeaths.toLocaleString() + "</td>" +
                 "</tr>";
