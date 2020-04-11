@@ -32,7 +32,7 @@ function buildCountryMap() {
 function buildContinentMap() {
     $.getJSON(countryListUrl, function(data) {
         for (idx in data) {
-            countryMap.set(data[idx].country, data[idx].continent);
+            continentMap.set(data[idx].country, data[idx].continent);
         }
     });
 }
