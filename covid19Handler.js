@@ -1,7 +1,7 @@
 /**
  *  @author SOSELab@NTOU <albert@ntou.edu.tw>
  */
-let dataSourceUrl = "https://corona.lmao.ninja/countries?sort=country";
+let dataSourceUrl = "https://corona.lmao.ninja/v2/countries";
 let countryListUrl = "countries.json";
 let countryMap = new Map();
 let continentMap = new Map();
