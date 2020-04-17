@@ -14,7 +14,7 @@ $(function() {
     buildContinentMap();
     $("#taiwan").hide();
     $.getJSON(dataSourceUrl, function(data) {
-        data.reverse();
+        // data.reverse();
         covid19Data = data;
         showTable();
     });
