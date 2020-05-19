@@ -43,10 +43,11 @@ function showTable(initial) {
     }
     let googleUrlPrefix = "https://www.google.com/search?q=";
     $("#myTable").empty();
-    let idx, date;
+
+    let updated = 0;
+
     if (covid19Data) {
-        let updated = 0;
-        for (idx in covid19Data) {
+        for (let idx in covid19Data) {
             let countryName = covid19Data[idx].country;
             covid19Data[idx].continent = (continentMap.get(countryName) ? continentMap.get(countryName) : "N/A");
 
@@ -77,7 +78,8 @@ function showTable(initial) {
 function sortData(fieldNumber) {
     covid19Data.sort(function(a, b) {
         if (sortType[fieldNumber] == "asc") {
-            if (a[fieldNames[fieldNumber]] > b[fieldNames[fieldNumber]]) return -1;
+            if (a[fieldNames[fieldNumber]] > b[fieldNames[fieldNumber]])
+                return -1;
             else return 1;
         } else if (sortType[fieldNumber] == "desc") {
             if (a[fieldNames[fieldNumber]] <

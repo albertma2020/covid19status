@@ -1,1047 +1,12 @@
 [
   {
-    "country": "Zimbabwe",
-    "chineseCountryName": "辛巴威",
-    "continent": "Africa"
-  },
-  {
-    "country": "Zambia",
-    "chineseCountryName": "尚比亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Yemen",
-    "chineseCountryName": "葉門",
+    "country": "Afghanistan",
+    "chineseCountryName": "阿富汗",
     "continent": "Asia"
   },
   {
-    "country": "Western Sahara",
-    "chineseCountryName": "西撒哈拉",
-    "continent": "Africa"
-  },
-  {
-    "country": "Vietnam",
-    "chineseCountryName": "越南",
-    "continent": "Asia"
-  },
-  {
-    "country": "Venezuela",
-    "chineseCountryName": "委內瑞拉",
-    "continent": "South America"
-  },
-  {
-    "country": "Uzbekistan",
-    "chineseCountryName": "烏茲別克",
-    "continent": "Asia"
-  },
-  {
-    "country": "Uruguay",
-    "chineseCountryName": "烏拉圭",
-    "continent": "South America"
-  },
-  {
-    "country": "Ukraine",
-    "chineseCountryName": "烏克蘭",
-    "continent": "Europe"
-  },
-  {
-    "country": "Uganda",
-    "chineseCountryName": "烏干達",
-    "continent": "Africa"
-  },
-  {
-    "country": "USA",
-    "chineseCountryName": "美國",
-    "continent": "North America"
-  },
-  {
-    "country": "UK",
-    "chineseCountryName": "英國",
-    "continent": "Europe"
-  },
-  {
-    "country": "UAE",
-    "chineseCountryName": "阿拉伯聯合大公國",
-    "continent": "Asia"
-  },
-  {
-    "country": "Turks and Caicos Islands",
-    "chineseCountryName": "土克斯及開科斯群島",
-    "continent": "North America"
-  },
-  {
-    "country": "Turkey",
-    "chineseCountryName": "土耳其",
-    "continent": "Europe \u0026 Asia"
-  },
-  {
-    "country": "Tunisia",
-    "chineseCountryName": "突尼西亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Trinidad and Tobago",
-    "chineseCountryName": "千里達及托巴哥",
-    "continent": "South America"
-  },
-  {
-    "country": "Togo",
-    "chineseCountryName": "多哥",
-    "continent": "Africa"
-  },
-  {
-    "country": "Timor-Leste",
-    "chineseCountryName": "東帝汶",
-    "continent": "Asia"
-  },
-  {
-    "country": "Thailand",
-    "chineseCountryName": "泰國",
-    "continent": "Asia"
-  },
-  {
-    "country": "Tanzania",
-    "chineseCountryName": "坦尚尼亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Taiwan",
-    "chineseCountryName": "台灣",
-    "continent": "Asia"
-  },
-  {
-    "country": "Syrian Arab Republic",
-    "chineseCountryName": "敘利亞",
-    "continent": "Asia"
-  },
-  {
-    "country": "Switzerland",
-    "chineseCountryName": "瑞士",
-    "continent": "Europe"
-  },
-  {
-    "country": "Sweden",
-    "chineseCountryName": "瑞典",
-    "continent": "Europe"
-  },
-  {
-    "country": "Swaziland",
-    "chineseCountryName": "史瓦帝尼王國",
-    "continent": "Africa"
-  },
-  {
-    "country": "Suriname",
-    "chineseCountryName": "蘇利南",
-    "continent": "South America"
-  },
-  {
-    "country": "Sudan",
-    "chineseCountryName": "蘇丹",
-    "continent": "Africa"
-  },
-  {
-    "country": "St. Barth",
-    "chineseCountryName": "聖巴瑟米",
-    "continent": "North America"
-  },
-  {
-    "country": "Sri Lanka",
-    "chineseCountryName": "斯里蘭卡",
-    "continent": "Asia"
-  },
-  {
-    "country": "Spain",
-    "chineseCountryName": "西班牙",
-    "continent": "Europe \u0026 Africa"
-  },
-  {
-    "country": "South Sudan",
-    "chineseCountryName": "南蘇丹",
-    "continent": "Africa"
-  },
-  {
-    "country": "South Africa",
-    "chineseCountryName": "南非",
-    "continent": "Africa"
-  },
-  {
-    "country": "Somalia",
-    "chineseCountryName": "索馬利亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Slovenia",
-    "chineseCountryName": "斯洛維尼亞",
-    "continent": "Europe"
-  },
-  {
-    "country": "Slovakia",
-    "chineseCountryName": "斯洛伐克",
-    "continent": "Europe"
-  },
-  {
-    "country": "Sint Maarten",
-    "chineseCountryName": "荷屬聖馬丁",
-    "continent": "North America"
-  },
-  {
-    "country": "Singapore",
-    "chineseCountryName": "新加坡",
-    "continent": "Asia"
-  },
-  {
-    "country": "Sierra Leone",
-    "chineseCountryName": "獅子山",
-    "continent": "Africa"
-  },
-  {
-    "country": "Seychelles",
-    "chineseCountryName": "塞席爾",
-    "continent": "Africa"
-  },
-  {
-    "country": "Serbia",
-    "chineseCountryName": "塞爾維亞",
-    "continent": "Europe"
-  },
-  {
-    "country": "Senegal",
-    "chineseCountryName": "塞內加爾",
-    "continent": "Africa"
-  },
-  {
-    "country": "Saudi Arabia",
-    "chineseCountryName": "沙烏地阿拉伯",
-    "continent": "Asia"
-  },
-  {
-    "country": "Sao Tome and Principe",
-    "chineseCountryName": "聖多美普林西比",
-    "continent": "Africa"
-  },
-  {
-    "country": "San Marino",
-    "chineseCountryName": "聖馬利諾",
-    "continent": "Europe"
-  },
-  {
-    "country": "Saint Vincent and the Grenadines",
-    "chineseCountryName": "聖文森及格瑞那丁",
-    "continent": "North America"
-  },
-  {
-    "country": "Saint Pierre Miquelon",
-    "chineseCountryName": "聖皮埃與密克隆群島",
-    "continent": "North America"
-  },
-  {
-    "country": "Saint Martin",
-    "chineseCountryName": "荷屬聖馬丁",
-    "continent": "North America"
-  },
-  {
-    "country": "Saint Lucia",
-    "chineseCountryName": "聖露西亞",
-    "continent": "North America"
-  },
-  {
-    "country": "Saint Kitts and Nevis",
-    "chineseCountryName": "聖克里斯多福及尼維斯",
-    "continent": "North America"
-  },
-  {
-    "country": "S. Korea",
-    "chineseCountryName": "南韓",
-    "continent": "Asia"
-  },
-  {
-    "country": "Réunion",
-    "chineseCountryName": "留尼旺",
-    "continent": "Africa"
-  },
-  {
-    "country": "Rwanda",
-    "chineseCountryName": "盧安達",
-    "continent": "Africa"
-  },
-  {
-    "country": "Russia",
-    "chineseCountryName": "俄羅斯",
-    "continent": "Europe \u0026 Asia"
-  },
-  {
-    "country": "Romania",
-    "chineseCountryName": "羅馬尼亞",
-    "continent": "Europe"
-  },
-  {
-    "country": "Qatar",
-    "chineseCountryName": "卡達",
-    "continent": "Asia"
-  },
-  {
-    "country": "Portugal",
-    "chineseCountryName": "葡萄牙",
-    "continent": "Europe \u0026 Africa"
-  },
-  {
-    "country": "Poland",
-    "chineseCountryName": "波蘭",
-    "continent": "Europe"
-  },
-  {
-    "country": "Philippines",
-    "chineseCountryName": "菲律賓",
-    "continent": "Asia"
-  },
-  {
-    "country": "Peru",
-    "chineseCountryName": "秘魯",
-    "continent": "South America"
-  },
-  {
-    "country": "Paraguay",
-    "chineseCountryName": "巴拉圭",
-    "continent": "South America"
-  },
-  {
-    "country": "Papua New Guinea",
-    "chineseCountryName": "巴布亞紐幾內亞",
-    "continent": "Oceania"
-  },
-  {
-    "country": "Panama",
-    "chineseCountryName": "巴拿馬",
-    "continent": "North America"
-  },
-  {
-    "country": "Palestine",
-    "chineseCountryName": "巴勒斯坦",
-    "continent": "Asia"
-  },
-  {
-    "country": "Pakistan",
-    "chineseCountryName": "巴基斯坦",
-    "continent": "Asia"
-  },
-  {
-    "country": "Oman",
-    "chineseCountryName": "阿曼",
-    "continent": "Asia"
-  },
-  {
-    "country": "Norway",
-    "chineseCountryName": "挪威",
-    "continent": "Europe"
-  },
-  {
-    "country": "Nigeria",
-    "chineseCountryName": "奈及利亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Niger",
-    "chineseCountryName": "尼日",
-    "continent": "Africa"
-  },
-  {
-    "country": "Nicaragua",
-    "chineseCountryName": "尼加拉瓜",
-    "continent": "North America"
-  },
-  {
-    "country": "New Zealand",
-    "chineseCountryName": "紐西蘭",
-    "continent": "Oceania"
-  },
-  {
-    "country": "New Caledonia",
-    "chineseCountryName": "新喀里多尼亞",
-    "continent": "Oceania"
-  },
-  {
-    "country": "Netherlands",
-    "chineseCountryName": "荷蘭",
-    "continent": "Europe"
-  },
-  {
-    "country": "Nepal",
-    "chineseCountryName": "尼泊爾",
-    "continent": "Asia"
-  },
-  {
-    "country": "Namibia",
-    "chineseCountryName": "納米比亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Myanmar",
-    "chineseCountryName": "緬甸",
-    "continent": "Asia"
-  },
-  {
-    "country": "Mozambique",
-    "chineseCountryName": "莫三比克",
-    "continent": "Africa"
-  },
-  {
-    "country": "Morocco",
-    "chineseCountryName": "摩洛哥",
-    "continent": "Africa"
-  },
-  {
-    "country": "Montserrat",
-    "chineseCountryName": "蒙哲臘",
-    "continent": "North America"
-  },
-  {
-    "country": "Montenegro",
-    "chineseCountryName": "蒙特內哥羅",
-    "continent": "Europe"
-  },
-  {
-    "country": "Mongolia",
-    "chineseCountryName": "蒙古",
-    "continent": "Asia"
-  },
-  {
-    "country": "Monaco",
-    "chineseCountryName": "摩納哥",
-    "continent": "Europe"
-  },
-  {
-    "country": "Moldova",
-    "chineseCountryName": "摩爾多瓦",
-    "continent": "Europe"
-  },
-  {
-    "country": "Mexico",
-    "chineseCountryName": "墨西哥",
-    "continent": "North America"
-  },
-  {
-    "country": "Mayotte",
-    "chineseCountryName": "馬約特島",
-    "continent": "Africa"
-  },
-  {
-    "country": "Mauritius",
-    "chineseCountryName": "模里西斯",
-    "continent": "Africa"
-  },
-  {
-    "country": "Mauritania",
-    "chineseCountryName": "茅利塔尼亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Martinique",
-    "chineseCountryName": "馬丁尼克",
-    "continent": "North America"
-  },
-  {
-    "country": "Malta",
-    "chineseCountryName": "馬爾他",
-    "continent": "Europe"
-  },
-  {
-    "country": "Mali",
-    "chineseCountryName": "馬利",
-    "continent": "Africa"
-  },
-  {
-    "country": "Maldives",
-    "chineseCountryName": "馬爾地夫",
-    "continent": "Asia"
-  },
-  {
-    "country": "Malaysia",
-    "chineseCountryName": "馬來西亞",
-    "continent": "Asia"
-  },
-  {
-    "country": "Malawi",
-    "chineseCountryName": "馬拉威",
-    "continent": "Africa"
-  },
-  {
-    "country": "Madagascar",
-    "chineseCountryName": "馬達加斯加",
-    "continent": "Africa"
-  },
-  {
-    "country": "Macedonia",
-    "chineseCountryName": "北馬其頓",
-    "continent": "Europe"
-  },
-  {
-    "country": "Macao",
-    "chineseCountryName": "澳門",
-    "continent": "Asia"
-  },
-  {
-    "country": "MS Zaandam",
-    "chineseCountryName": "MS Zaandam 號",
-    "continent": "N/A"
-  },
-  {
-    "country": "Luxembourg",
-    "chineseCountryName": "盧森堡",
-    "continent": "Europe"
-  },
-  {
-    "country": "Lithuania",
-    "chineseCountryName": "立陶宛",
-    "continent": "Europe"
-  },
-  {
-    "country": "Liechtenstein",
-    "chineseCountryName": "列支敦斯登",
-    "continent": "Europe"
-  },
-  {
-    "country": "Libyan Arab Jamahiriya",
-    "chineseCountryName": "利比亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Liberia",
-    "chineseCountryName": "賴比瑞亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Lebanon",
-    "chineseCountryName": "黎巴嫩",
-    "continent": "Asia"
-  },
-  {
-    "country": "Latvia",
-    "chineseCountryName": "拉脫維亞",
-    "continent": "Europe"
-  },
-  {
-    "country": "Lao People\u0027s Democratic Republic",
-    "chineseCountryName": "寮國",
-    "continent": "Asia"
-  },
-  {
-    "country": "Kyrgyzstan",
-    "chineseCountryName": "吉爾吉斯",
-    "continent": "Asia"
-  },
-  {
-    "country": "Kuwait",
-    "chineseCountryName": "科威特",
-    "continent": "Asia"
-  },
-  {
-    "country": "Kenya",
-    "chineseCountryName": "肯亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Kazakhstan",
-    "chineseCountryName": "哈薩克",
-    "continent": "Europe \u0026 Asia"
-  },
-  {
-    "country": "Jordan",
-    "chineseCountryName": "約旦",
-    "continent": "Asia"
-  },
-  {
-    "country": "Japan",
-    "chineseCountryName": "日本",
-    "continent": "Asia"
-  },
-  {
-    "country": "Jamaica",
-    "chineseCountryName": "牙買加",
-    "continent": "North America"
-  },
-  {
-    "country": "Italy",
-    "chineseCountryName": "義大利",
-    "continent": "Europe"
-  },
-  {
-    "country": "Israel",
-    "chineseCountryName": "以色列",
-    "continent": "Asia"
-  },
-  {
-    "country": "Isle of Man",
-    "chineseCountryName": "曼島",
-    "continent": "Europe"
-  },
-  {
-    "country": "Ireland",
-    "chineseCountryName": "愛爾蘭",
-    "continent": "Europe"
-  },
-  {
-    "country": "Iraq",
-    "chineseCountryName": "伊拉克",
-    "continent": "Asia"
-  },
-  {
-    "country": "Iran",
-    "chineseCountryName": "伊朗",
-    "continent": "Asia"
-  },
-  {
-    "country": "Indonesia",
-    "chineseCountryName": "印尼",
-    "continent": "Asia"
-  },
-  {
-    "country": "India",
-    "chineseCountryName": "印度",
-    "continent": "Asia"
-  },
-  {
-    "country": "Iceland",
-    "chineseCountryName": "冰島",
-    "continent": "Europe"
-  },
-  {
-    "country": "Hungary",
-    "chineseCountryName": "匈牙利",
-    "continent": "Europe"
-  },
-  {
-    "country": "Hong Kong",
-    "chineseCountryName": "香港",
-    "continent": "Asia"
-  },
-  {
-    "country": "Honduras",
-    "chineseCountryName": "宏都拉斯",
-    "continent": "North America"
-  },
-  {
-    "country": "Holy See (Vatican City State)",
-    "chineseCountryName": "梵蒂岡",
-    "continent": "Europe"
-  },
-  {
-    "country": "Haiti",
-    "chineseCountryName": "海地",
-    "continent": "North America"
-  },
-  {
-    "country": "Guyana",
-    "chineseCountryName": "蓋亞那",
-    "continent": "South America"
-  },
-  {
-    "country": "Guinea-Bissau",
-    "chineseCountryName": "幾內亞比索",
-    "continent": "Africa"
-  },
-  {
-    "country": "Guinea",
-    "chineseCountryName": "幾內亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Guatemala",
-    "chineseCountryName": "瓜地馬拉",
-    "continent": "North America"
-  },
-  {
-    "country": "Guadeloupe",
-    "chineseCountryName": "瓜地洛普",
-    "continent": "North America"
-  },
-  {
-    "country": "Grenada",
-    "chineseCountryName": "格瑞那達",
-    "continent": "North America"
-  },
-  {
-    "country": "Greenland",
-    "chineseCountryName": "格陵蘭",
-    "continent": "North America"
-  },
-  {
-    "country": "Greece",
-    "chineseCountryName": "希臘",
-    "continent": "Europe"
-  },
-  {
-    "country": "Gibraltar",
-    "chineseCountryName": "直布羅陀",
-    "continent": "Europe"
-  },
-  {
-    "country": "Ghana",
-    "chineseCountryName": "迦納",
-    "continent": "Africa"
-  },
-  {
-    "country": "Germany",
-    "chineseCountryName": "德國",
-    "continent": "Europe"
-  },
-  {
-    "country": "Georgia",
-    "chineseCountryName": "喬治亞",
-    "continent": "Europe \u0026 Asia"
-  },
-  {
-    "country": "Gambia",
-    "chineseCountryName": "甘比亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Gabon",
-    "chineseCountryName": "加彭",
-    "continent": "Africa"
-  },
-  {
-    "country": "French Polynesia",
-    "chineseCountryName": "法屬玻里尼西亞",
-    "continent": "Oceania"
-  },
-  {
-    "country": "French Guiana",
-    "chineseCountryName": "法屬圭亞那",
-    "continent": "South America"
-  },
-  {
-    "country": "France",
-    "chineseCountryName": "法國",
-    "continent": "Europe"
-  },
-  {
-    "country": "Finland",
-    "chineseCountryName": "芬蘭",
-    "continent": "Europe"
-  },
-  {
-    "country": "Fiji",
-    "chineseCountryName": "斐濟",
-    "continent": "Oceania"
-  },
-  {
-    "country": "Faroe Islands",
-    "chineseCountryName": "法羅群島",
-    "continent": "Europe"
-  },
-  {
-    "country": "Falkland Islands (Malvinas)",
-    "chineseCountryName": "福克蘭群島 (馬維納斯群島)",
-    "continent": "South America"
-  },
-  {
-    "country": "Ethiopia",
-    "chineseCountryName": "衣索比亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Estonia",
-    "chineseCountryName": "愛沙尼亞",
-    "continent": "Europe"
-  },
-  {
-    "country": "Eritrea",
-    "chineseCountryName": "厄利垂亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "Equatorial Guinea",
-    "chineseCountryName": "赤道幾內亞",
-    "continent": "Africa"
-  },
-  {
-    "country": "El Salvador",
-    "chineseCountryName": "薩爾瓦多",
-    "continent": "North America"
-  },
-  {
-    "country": "Egypt",
-    "chineseCountryName": "埃及",
-    "continent": "Africa \u0026 Asia"
-  },
-  {
-    "country": "Ecuador",
-    "chineseCountryName": "厄瓜多",
-    "continent": "South America"
-  },
-  {
-    "country": "Dominican Republic",
-    "chineseCountryName": "多明尼加共和國",
-    "continent": "North America"
-  },
-  {
-    "country": "Dominica",
-    "chineseCountryName": "多米尼克",
-    "continent": "North America"
-  },
-  {
-    "country": "Djibouti",
-    "chineseCountryName": "吉布地",
-    "continent": "Africa"
-  },
-  {
-    "country": "Diamond Princess",
-    "chineseCountryName": "鑽石公主號",
-    "continent": "N/A"
-  },
-  {
-    "country": "Denmark",
-    "chineseCountryName": "丹麥",
-    "continent": "Europe"
-  },
-  {
-    "country": "DRC",
-    "chineseCountryName": "剛果民主共和國",
-    "continent": "Africa"
-  },
-  {
-    "country": "Côte d\u0027Ivoire",
-    "chineseCountryName": "象牙海岸",
-    "continent": "Africa"
-  },
-  {
-    "country": "Czechia",
-    "chineseCountryName": "捷克",
-    "continent": "Europe"
-  },
-  {
-    "country": "Cyprus",
-    "chineseCountryName": "賽普勒斯",
-    "continent": "Europe"
-  },
-  {
-    "country": "Curaçao",
-    "chineseCountryName": "庫拉索",
-    "continent": "South America"
-  },
-  {
-    "country": "Cuba",
-    "chineseCountryName": "古巴",
-    "continent": "North America"
-  },
-  {
-    "country": "Croatia",
-    "chineseCountryName": "克羅埃西亞",
-    "continent": "Europe"
-  },
-  {
-    "country": "Costa Rica",
-    "chineseCountryName": "哥斯大黎加",
-    "continent": "North America"
-  },
-  {
-    "country": "Congo",
-    "chineseCountryName": "剛果民主共和國",
-    "continent": "Africa"
-  },
-  {
-    "country": "Colombia",
-    "chineseCountryName": "哥倫比亞",
-    "continent": "South America"
-  },
-  {
-    "country": "China",
-    "chineseCountryName": "中國",
-    "continent": "Asia"
-  },
-  {
-    "country": "Chile",
-    "chineseCountryName": "智利",
-    "continent": "South America"
-  },
-  {
-    "country": "Channel Islands",
-    "chineseCountryName": "海峽群島 ",
-    "continent": "Europe"
-  },
-  {
-    "country": "Chad",
-    "chineseCountryName": "查德",
-    "continent": "Africa"
-  },
-  {
-    "country": "Central African Republic",
-    "chineseCountryName": "中非共和國",
-    "continent": "Africa"
-  },
-  {
-    "country": "Cayman Islands",
-    "chineseCountryName": "開曼群島",
-    "continent": "North America"
-  },
-  {
-    "country": "Caribbean Netherlands",
-    "chineseCountryName": "荷蘭加勒比區",
-    "continent": "South America"
-  },
-  {
-    "country": "Canada",
-    "chineseCountryName": "加拿大",
-    "continent": "North America"
-  },
-  {
-    "country": "Cameroon",
-    "chineseCountryName": "喀麥隆",
-    "continent": "Africa"
-  },
-  {
-    "country": "Cambodia",
-    "chineseCountryName": "柬埔寨",
-    "continent": "Asia"
-  },
-  {
-    "country": "Cabo Verde",
-    "chineseCountryName": "維德角",
-    "continent": "Africa"
-  },
-  {
-    "country": "Burundi",
-    "chineseCountryName": "蒲隆地",
-    "continent": "Africa"
-  },
-  {
-    "country": "Burkina Faso",
-    "chineseCountryName": "布吉納法索",
-    "continent": "Africa"
-  },
-  {
-    "country": "Bulgaria",
-    "chineseCountryName": "保加利亞",
-    "continent": "Europe"
-  },
-  {
-    "country": "Brunei",
-    "chineseCountryName": "汶萊",
-    "continent": "Asia"
-  },
-  {
-    "country": "British Virgin Islands",
-    "chineseCountryName": "英屬維京群島",
-    "continent": "North America"
-  },
-  {
-    "country": "Brazil",
-    "chineseCountryName": "巴西",
-    "continent": "South America"
-  },
-  {
-    "country": "Botswana",
-    "chineseCountryName": "波札那",
-    "continent": "Africa"
-  },
-  {
-    "country": "Bosnia",
-    "chineseCountryName": "波士尼亞與赫塞哥維納",
-    "continent": "Europe"
-  },
-  {
-    "country": "Bolivia",
-    "chineseCountryName": "玻利維亞",
-    "continent": "South America"
-  },
-  {
-    "country": "Bhutan",
-    "chineseCountryName": "不丹",
-    "continent": "Asia"
-  },
-  {
-    "country": "Bermuda",
-    "chineseCountryName": "百慕達",
-    "continent": "N/A"
-  },
-  {
-    "country": "Benin",
-    "chineseCountryName": "貝南",
-    "continent": "Africa"
-  },
-  {
-    "country": "Belize",
-    "chineseCountryName": "貝里斯",
-    "continent": "North America"
-  },
-  {
-    "country": "Belgium",
-    "chineseCountryName": "比利時",
-    "continent": "Europe"
-  },
-  {
-    "country": "Belarus",
-    "chineseCountryName": "白俄羅斯",
-    "continent": "Europe"
-  },
-  {
-    "country": "Barbados",
-    "chineseCountryName": "巴貝多",
-    "continent": "North America"
-  },
-  {
-    "country": "Bangladesh",
-    "chineseCountryName": "孟加拉",
-    "continent": "Asia"
-  },
-  {
-    "country": "Bahrain",
-    "chineseCountryName": "巴林",
-    "continent": "Asia"
-  },
-  {
-    "country": "Bahamas",
-    "chineseCountryName": "巴哈馬",
-    "continent": "North America"
-  },
-  {
-    "country": "Azerbaijan",
-    "chineseCountryName": "亞塞拜然",
-    "continent": "Europe \u0026 Asia"
-  },
-  {
-    "country": "Austria",
-    "chineseCountryName": "奧地利",
-    "continent": "Europe"
-  },
-  {
-    "country": "Australia",
-    "chineseCountryName": "澳洲",
-    "continent": "Oceania"
-  },
-  {
-    "country": "Aruba",
-    "chineseCountryName": "荷屬阿魯巴",
-    "continent": "South America"
-  },
-  {
-    "country": "Armenia",
-    "chineseCountryName": "亞美尼亞",
-    "continent": "Asia"
-  },
-  {
-    "country": "Argentina",
-    "chineseCountryName": "阿根廷",
-    "continent": "South America"
-  },
-  {
-    "country": "Antigua and Barbuda",
-    "chineseCountryName": "安地卡及巴布達",
-    "continent": "North America"
-  },
-  {
-    "country": "Anguilla",
-    "chineseCountryName": "安奎拉",
-    "continent": "North America"
-  },
-  {
-    "country": "Angola",
-    "chineseCountryName": "安哥拉",
-    "continent": "Africa"
-  },
-  {
-    "country": "Andorra",
-    "chineseCountryName": "安道爾",
+    "country": "Albania",
+    "chineseCountryName": "阿爾巴尼亞",
     "continent": "Europe"
   },
   {
@@ -1050,13 +15,1063 @@
     "continent": "Africa"
   },
   {
-    "country": "Albania",
-    "chineseCountryName": "阿爾巴尼亞",
+    "country": "Andorra",
+    "chineseCountryName": "安道爾",
     "continent": "Europe"
   },
   {
-    "country": "Afghanistan",
-    "chineseCountryName": "阿富汗",
+    "country": "Angola",
+    "chineseCountryName": "安哥拉",
+    "continent": "Africa"
+  },
+  {
+    "country": "Anguilla",
+    "chineseCountryName": "安奎拉",
+    "continent": "North America"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "chineseCountryName": "安地卡及巴布達",
+    "continent": "North America"
+  },
+  {
+    "country": "Argentina",
+    "chineseCountryName": "阿根廷",
+    "continent": "South America"
+  },
+  {
+    "country": "Armenia",
+    "chineseCountryName": "亞美尼亞",
     "continent": "Asia"
+  },
+  {
+    "country": "Aruba",
+    "chineseCountryName": "荷屬阿魯巴",
+    "continent": "South America"
+  },
+  {
+    "country": "Australia",
+    "chineseCountryName": "澳洲",
+    "continent": "Oceania"
+  },
+  {
+    "country": "Austria",
+    "chineseCountryName": "奧地利",
+    "continent": "Europe"
+  },
+  {
+    "country": "Azerbaijan",
+    "chineseCountryName": "亞塞拜然",
+    "continent": "Europe \u0026 Asia"
+  },
+  {
+    "country": "Bahamas",
+    "chineseCountryName": "巴哈馬",
+    "continent": "North America"
+  },
+  {
+    "country": "Bahrain",
+    "chineseCountryName": "巴林",
+    "continent": "Asia"
+  },
+  {
+    "country": "Bangladesh",
+    "chineseCountryName": "孟加拉",
+    "continent": "Asia"
+  },
+  {
+    "country": "Barbados",
+    "chineseCountryName": "巴貝多",
+    "continent": "North America"
+  },
+  {
+    "country": "Belarus",
+    "chineseCountryName": "白俄羅斯",
+    "continent": "Europe"
+  },
+  {
+    "country": "Belgium",
+    "chineseCountryName": "比利時",
+    "continent": "Europe"
+  },
+  {
+    "country": "Belize",
+    "chineseCountryName": "貝里斯",
+    "continent": "North America"
+  },
+  {
+    "country": "Benin",
+    "chineseCountryName": "貝南",
+    "continent": "Africa"
+  },
+  {
+    "country": "Bermuda",
+    "chineseCountryName": "百慕達",
+    "continent": "N/A"
+  },
+  {
+    "country": "Bhutan",
+    "chineseCountryName": "不丹",
+    "continent": "Asia"
+  },
+  {
+    "country": "Bolivia",
+    "chineseCountryName": "玻利維亞",
+    "continent": "South America"
+  },
+  {
+    "country": "Bosnia",
+    "chineseCountryName": "波士尼亞與赫塞哥維納",
+    "continent": "Europe"
+  },
+  {
+    "country": "Botswana",
+    "chineseCountryName": "波札那",
+    "continent": "Africa"
+  },
+  {
+    "country": "Brazil",
+    "chineseCountryName": "巴西",
+    "continent": "South America"
+  },
+  {
+    "country": "British Virgin Islands",
+    "chineseCountryName": "英屬維京群島",
+    "continent": "North America"
+  },
+  {
+    "country": "Brunei",
+    "chineseCountryName": "汶萊",
+    "continent": "Asia"
+  },
+  {
+    "country": "Bulgaria",
+    "chineseCountryName": "保加利亞",
+    "continent": "Europe"
+  },
+  {
+    "country": "Burkina Faso",
+    "chineseCountryName": "布吉納法索",
+    "continent": "Africa"
+  },
+  {
+    "country": "Burundi",
+    "chineseCountryName": "蒲隆地",
+    "continent": "Africa"
+  },
+  {
+    "country": "Cabo Verde",
+    "chineseCountryName": "維德角",
+    "continent": "Africa"
+  },
+  {
+    "country": "Cambodia",
+    "chineseCountryName": "柬埔寨",
+    "continent": "Asia"
+  },
+  {
+    "country": "Cameroon",
+    "chineseCountryName": "喀麥隆",
+    "continent": "Africa"
+  },
+  {
+    "country": "Canada",
+    "chineseCountryName": "加拿大",
+    "continent": "North America"
+  },
+  {
+    "country": "Caribbean Netherlands",
+    "chineseCountryName": "荷蘭加勒比區",
+    "continent": "South America"
+  },
+  {
+    "country": "Cayman Islands",
+    "chineseCountryName": "開曼群島",
+    "continent": "North America"
+  },
+  {
+    "country": "Central African Republic",
+    "chineseCountryName": "中非共和國",
+    "continent": "Africa"
+  },
+  {
+    "country": "Chad",
+    "chineseCountryName": "查德",
+    "continent": "Africa"
+  },
+  {
+    "country": "Channel Islands",
+    "chineseCountryName": "澤西島",
+    "continent": "N/A"
+  },
+  {
+    "country": "Chile",
+    "chineseCountryName": "智利",
+    "continent": "South America"
+  },
+  {
+    "country": "China",
+    "chineseCountryName": "中國",
+    "continent": "Asia"
+  },
+  {
+    "country": "Colombia",
+    "chineseCountryName": "哥倫比亞",
+    "continent": "South America"
+  },
+  {
+    "country": "Comoros",
+    "chineseCountryName": "葛摩",
+    "continent": "Africa"
+  },
+  {
+    "country": "Congo",
+    "chineseCountryName": "剛果民主共和國",
+    "continent": "Africa"
+  },
+  {
+    "country": "Costa Rica",
+    "chineseCountryName": "哥斯大黎加",
+    "continent": "North America"
+  },
+  {
+    "country": "Croatia",
+    "chineseCountryName": "克羅埃西亞",
+    "continent": "Europe"
+  },
+  {
+    "country": "Cuba",
+    "chineseCountryName": "古巴",
+    "continent": "North America"
+  },
+  {
+    "country": "Curaçao",
+    "chineseCountryName": "庫拉索",
+    "continent": "South America"
+  },
+  {
+    "country": "Cyprus",
+    "chineseCountryName": "賽普勒斯",
+    "continent": "Europe"
+  },
+  {
+    "country": "Czechia",
+    "chineseCountryName": "捷克",
+    "continent": "Europe"
+  },
+  {
+    "country": "Côte d\u0027Ivoire",
+    "chineseCountryName": "象牙海岸",
+    "continent": "Africa"
+  },
+  {
+    "country": "DRC",
+    "chineseCountryName": "剛果民主共和國",
+    "continent": "Africa"
+  },
+  {
+    "country": "Denmark",
+    "chineseCountryName": "丹麥",
+    "continent": "Europe"
+  },
+  {
+    "country": "Diamond Princess",
+    "chineseCountryName": "鑽石公主號",
+    "continent": "N/A"
+  },
+  {
+    "country": "Djibouti",
+    "chineseCountryName": "吉布地",
+    "continent": "Africa"
+  },
+  {
+    "country": "Dominica",
+    "chineseCountryName": "多米尼克",
+    "continent": "North America"
+  },
+  {
+    "country": "Dominican Republic",
+    "chineseCountryName": "多明尼加共和國",
+    "continent": "North America"
+  },
+  {
+    "country": "Ecuador",
+    "chineseCountryName": "厄瓜多",
+    "continent": "South America"
+  },
+  {
+    "country": "Egypt",
+    "chineseCountryName": "埃及",
+    "continent": "Africa \u0026 Asia"
+  },
+  {
+    "country": "El Salvador",
+    "chineseCountryName": "薩爾瓦多",
+    "continent": "North America"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "chineseCountryName": "赤道幾內亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Eritrea",
+    "chineseCountryName": "厄利垂亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Estonia",
+    "chineseCountryName": "愛沙尼亞",
+    "continent": "Europe"
+  },
+  {
+    "country": "Ethiopia",
+    "chineseCountryName": "衣索比亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Falkland Islands (Malvinas)",
+    "chineseCountryName": "福克蘭群島 (馬維納斯群島)",
+    "continent": "South America"
+  },
+  {
+    "country": "Faroe Islands",
+    "chineseCountryName": "法羅群島",
+    "continent": "Europe"
+  },
+  {
+    "country": "Fiji",
+    "chineseCountryName": "斐濟",
+    "continent": "Oceania"
+  },
+  {
+    "country": "Finland",
+    "chineseCountryName": "芬蘭",
+    "continent": "Europe"
+  },
+  {
+    "country": "France",
+    "chineseCountryName": "法國",
+    "continent": "Europe"
+  },
+  {
+    "country": "French Guiana",
+    "chineseCountryName": "法屬圭亞那",
+    "continent": "South America"
+  },
+  {
+    "country": "French Polynesia",
+    "chineseCountryName": "法屬玻里尼西亞",
+    "continent": "Oceania"
+  },
+  {
+    "country": "Gabon",
+    "chineseCountryName": "加彭",
+    "continent": "Africa"
+  },
+  {
+    "country": "Gambia",
+    "chineseCountryName": "甘比亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Georgia",
+    "chineseCountryName": "喬治亞",
+    "continent": "Europe \u0026 Asia"
+  },
+  {
+    "country": "Germany",
+    "chineseCountryName": "德國",
+    "continent": "Europe"
+  },
+  {
+    "country": "Ghana",
+    "chineseCountryName": "迦納",
+    "continent": "Africa"
+  },
+  {
+    "country": "Gibraltar",
+    "chineseCountryName": "直布羅陀",
+    "continent": "Europe"
+  },
+  {
+    "country": "Greece",
+    "chineseCountryName": "希臘",
+    "continent": "Europe"
+  },
+  {
+    "country": "Greenland",
+    "chineseCountryName": "格陵蘭",
+    "continent": "North America"
+  },
+  {
+    "country": "Grenada",
+    "chineseCountryName": "格瑞那達",
+    "continent": "North America"
+  },
+  {
+    "country": "Guadeloupe",
+    "chineseCountryName": "瓜地洛普",
+    "continent": "North America"
+  },
+  {
+    "country": "Guatemala",
+    "chineseCountryName": "瓜地馬拉",
+    "continent": "North America"
+  },
+  {
+    "country": "Guinea",
+    "chineseCountryName": "幾內亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "chineseCountryName": "幾內亞比索",
+    "continent": "Africa"
+  },
+  {
+    "country": "Guyana",
+    "chineseCountryName": "蓋亞那",
+    "continent": "South America"
+  },
+  {
+    "country": "Haiti",
+    "chineseCountryName": "海地",
+    "continent": "North America"
+  },
+  {
+    "country": "Holy See (Vatican City State)",
+    "chineseCountryName": "梵蒂岡",
+    "continent": "N/A"
+  },
+  {
+    "country": "Honduras",
+    "chineseCountryName": "宏都拉斯",
+    "continent": "North America"
+  },
+  {
+    "country": "Hong Kong",
+    "chineseCountryName": "香港",
+    "continent": "Asia"
+  },
+  {
+    "country": "Hungary",
+    "chineseCountryName": "匈牙利",
+    "continent": "Europe"
+  },
+  {
+    "country": "Iceland",
+    "chineseCountryName": "冰島",
+    "continent": "Europe"
+  },
+  {
+    "country": "India",
+    "chineseCountryName": "印度",
+    "continent": "Asia"
+  },
+  {
+    "country": "Indonesia",
+    "chineseCountryName": "印尼",
+    "continent": "Asia"
+  },
+  {
+    "country": "Iran",
+    "chineseCountryName": "伊朗",
+    "continent": "Asia"
+  },
+  {
+    "country": "Iraq",
+    "chineseCountryName": "伊拉克",
+    "continent": "Asia"
+  },
+  {
+    "country": "Ireland",
+    "chineseCountryName": "愛爾蘭",
+    "continent": "Europe"
+  },
+  {
+    "country": "Isle of Man",
+    "chineseCountryName": "曼島",
+    "continent": "Europe"
+  },
+  {
+    "country": "Israel",
+    "chineseCountryName": "以色列",
+    "continent": "Asia"
+  },
+  {
+    "country": "Italy",
+    "chineseCountryName": "義大利",
+    "continent": "Europe"
+  },
+  {
+    "country": "Jamaica",
+    "chineseCountryName": "牙買加",
+    "continent": "North America"
+  },
+  {
+    "country": "Japan",
+    "chineseCountryName": "日本",
+    "continent": "Asia"
+  },
+  {
+    "country": "Jordan",
+    "chineseCountryName": "約旦",
+    "continent": "Asia"
+  },
+  {
+    "country": "Kazakhstan",
+    "chineseCountryName": "哈薩克",
+    "continent": "Europe \u0026 Asia"
+  },
+  {
+    "country": "Kenya",
+    "chineseCountryName": "肯亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Kuwait",
+    "chineseCountryName": "科威特",
+    "continent": "Asia"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "chineseCountryName": "吉爾吉斯",
+    "continent": "Asia"
+  },
+  {
+    "country": "Lao People\u0027s Democratic Republic",
+    "chineseCountryName": "寮國",
+    "continent": "Asia"
+  },
+  {
+    "country": "Latvia",
+    "chineseCountryName": "拉脫維亞",
+    "continent": "Europe"
+  },
+  {
+    "country": "Lebanon",
+    "chineseCountryName": "黎巴嫩",
+    "continent": "Asia"
+  },
+  {
+    "country": "Lesotho",
+    "chineseCountryName": "賴索托",
+    "continent": "Africa"
+  },
+  {
+    "country": "Liberia",
+    "chineseCountryName": "賴比瑞亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Libyan Arab Jamahiriya",
+    "chineseCountryName": "利比亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Liechtenstein",
+    "chineseCountryName": "列支敦斯登",
+    "continent": "Europe"
+  },
+  {
+    "country": "Lithuania",
+    "chineseCountryName": "立陶宛",
+    "continent": "Europe"
+  },
+  {
+    "country": "Luxembourg",
+    "chineseCountryName": "盧森堡",
+    "continent": "Europe"
+  },
+  {
+    "country": "MS Zaandam",
+    "chineseCountryName": "MS Zaandam 號",
+    "continent": "N/A"
+  },
+  {
+    "country": "Macao",
+    "chineseCountryName": "澳門",
+    "continent": "Asia"
+  },
+  {
+    "country": "Macedonia",
+    "chineseCountryName": "北馬其頓",
+    "continent": "Europe"
+  },
+  {
+    "country": "Madagascar",
+    "chineseCountryName": "馬達加斯加",
+    "continent": "Africa"
+  },
+  {
+    "country": "Malawi",
+    "chineseCountryName": "馬拉威",
+    "continent": "Africa"
+  },
+  {
+    "country": "Malaysia",
+    "chineseCountryName": "馬來西亞",
+    "continent": "Asia"
+  },
+  {
+    "country": "Maldives",
+    "chineseCountryName": "馬爾地夫",
+    "continent": "Asia"
+  },
+  {
+    "country": "Mali",
+    "chineseCountryName": "馬利",
+    "continent": "Africa"
+  },
+  {
+    "country": "Malta",
+    "chineseCountryName": "馬爾他",
+    "continent": "Europe"
+  },
+  {
+    "country": "Martinique",
+    "chineseCountryName": "馬丁尼克",
+    "continent": "North America"
+  },
+  {
+    "country": "Mauritania",
+    "chineseCountryName": "茅利塔尼亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Mauritius",
+    "chineseCountryName": "模里西斯",
+    "continent": "Africa"
+  },
+  {
+    "country": "Mayotte",
+    "chineseCountryName": "馬約特島",
+    "continent": "Africa"
+  },
+  {
+    "country": "Mexico",
+    "chineseCountryName": "墨西哥",
+    "continent": "North America"
+  },
+  {
+    "country": "Moldova",
+    "chineseCountryName": "摩爾多瓦",
+    "continent": "Europe"
+  },
+  {
+    "country": "Monaco",
+    "chineseCountryName": "摩納哥",
+    "continent": "Europe"
+  },
+  {
+    "country": "Mongolia",
+    "chineseCountryName": "蒙古",
+    "continent": "Asia"
+  },
+  {
+    "country": "Montenegro",
+    "chineseCountryName": "蒙特內哥羅",
+    "continent": "Europe"
+  },
+  {
+    "country": "Montserrat",
+    "chineseCountryName": "蒙哲臘",
+    "continent": "North America"
+  },
+  {
+    "country": "Morocco",
+    "chineseCountryName": "摩洛哥",
+    "continent": "Africa"
+  },
+  {
+    "country": "Mozambique",
+    "chineseCountryName": "莫三比克",
+    "continent": "Africa"
+  },
+  {
+    "country": "Myanmar",
+    "chineseCountryName": "緬甸",
+    "continent": "Asia"
+  },
+  {
+    "country": "Namibia",
+    "chineseCountryName": "納米比亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Nepal",
+    "chineseCountryName": "尼泊爾",
+    "continent": "Asia"
+  },
+  {
+    "country": "Netherlands",
+    "chineseCountryName": "荷蘭",
+    "continent": "Europe"
+  },
+  {
+    "country": "New Caledonia",
+    "chineseCountryName": "新喀里多尼亞",
+    "continent": "Oceania"
+  },
+  {
+    "country": "New Zealand",
+    "chineseCountryName": "紐西蘭",
+    "continent": "Oceania"
+  },
+  {
+    "country": "Nicaragua",
+    "chineseCountryName": "尼加拉瓜",
+    "continent": "North America"
+  },
+  {
+    "country": "Niger",
+    "chineseCountryName": "尼日",
+    "continent": "Africa"
+  },
+  {
+    "country": "Nigeria",
+    "chineseCountryName": "奈及利亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Norway",
+    "chineseCountryName": "挪威",
+    "continent": "Europe"
+  },
+  {
+    "country": "Oman",
+    "chineseCountryName": "阿曼",
+    "continent": "Asia"
+  },
+  {
+    "country": "Pakistan",
+    "chineseCountryName": "巴基斯坦",
+    "continent": "Asia"
+  },
+  {
+    "country": "Palestine",
+    "chineseCountryName": "巴勒斯坦",
+    "continent": "Asia"
+  },
+  {
+    "country": "Panama",
+    "chineseCountryName": "巴拿馬",
+    "continent": "North America"
+  },
+  {
+    "country": "Papua New Guinea",
+    "chineseCountryName": "巴布亞紐幾內亞",
+    "continent": "Oceania"
+  },
+  {
+    "country": "Paraguay",
+    "chineseCountryName": "巴拉圭",
+    "continent": "South America"
+  },
+  {
+    "country": "Peru",
+    "chineseCountryName": "秘魯",
+    "continent": "South America"
+  },
+  {
+    "country": "Philippines",
+    "chineseCountryName": "菲律賓",
+    "continent": "Asia"
+  },
+  {
+    "country": "Poland",
+    "chineseCountryName": "波蘭",
+    "continent": "Europe"
+  },
+  {
+    "country": "Portugal",
+    "chineseCountryName": "葡萄牙",
+    "continent": "Europe \u0026 Africa"
+  },
+  {
+    "country": "Qatar",
+    "chineseCountryName": "卡達",
+    "continent": "Asia"
+  },
+  {
+    "country": "Romania",
+    "chineseCountryName": "羅馬尼亞",
+    "continent": "Europe"
+  },
+  {
+    "country": "Russia",
+    "chineseCountryName": "俄羅斯",
+    "continent": "Europe \u0026 Asia"
+  },
+  {
+    "country": "Rwanda",
+    "chineseCountryName": "盧安達",
+    "continent": "Africa"
+  },
+  {
+    "country": "Réunion",
+    "chineseCountryName": "留尼旺",
+    "continent": "Africa"
+  },
+  {
+    "country": "S. Korea",
+    "chineseCountryName": "南韓",
+    "continent": "Asia"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "chineseCountryName": "聖克里斯多福及尼維斯",
+    "continent": "North America"
+  },
+  {
+    "country": "Saint Lucia",
+    "chineseCountryName": "聖露西亞",
+    "continent": "North America"
+  },
+  {
+    "country": "Saint Martin",
+    "chineseCountryName": "荷屬聖馬丁",
+    "continent": "North America"
+  },
+  {
+    "country": "Saint Pierre Miquelon",
+    "chineseCountryName": "聖皮埃與密克隆群島",
+    "continent": "North America"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "chineseCountryName": "聖文森及格瑞那丁",
+    "continent": "North America"
+  },
+  {
+    "country": "San Marino",
+    "chineseCountryName": "聖馬利諾",
+    "continent": "Europe"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "chineseCountryName": "聖多美普林西比",
+    "continent": "Africa"
+  },
+  {
+    "country": "Saudi Arabia",
+    "chineseCountryName": "沙烏地阿拉伯",
+    "continent": "Asia"
+  },
+  {
+    "country": "Senegal",
+    "chineseCountryName": "塞內加爾",
+    "continent": "Africa"
+  },
+  {
+    "country": "Serbia",
+    "chineseCountryName": "塞爾維亞",
+    "continent": "Europe"
+  },
+  {
+    "country": "Seychelles",
+    "chineseCountryName": "塞席爾",
+    "continent": "Africa"
+  },
+  {
+    "country": "Sierra Leone",
+    "chineseCountryName": "獅子山",
+    "continent": "Africa"
+  },
+  {
+    "country": "Singapore",
+    "chineseCountryName": "新加坡",
+    "continent": "Asia"
+  },
+  {
+    "country": "Sint Maarten",
+    "chineseCountryName": "荷屬聖馬丁",
+    "continent": "North America"
+  },
+  {
+    "country": "Slovakia",
+    "chineseCountryName": "斯洛伐克",
+    "continent": "Europe"
+  },
+  {
+    "country": "Slovenia",
+    "chineseCountryName": "斯洛維尼亞",
+    "continent": "Europe"
+  },
+  {
+    "country": "Somalia",
+    "chineseCountryName": "索馬利亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "South Africa",
+    "chineseCountryName": "南非",
+    "continent": "Africa"
+  },
+  {
+    "country": "South Sudan",
+    "chineseCountryName": "南蘇丹",
+    "continent": "Africa"
+  },
+  {
+    "country": "Spain",
+    "chineseCountryName": "西班牙",
+    "continent": "Europe \u0026 Africa"
+  },
+  {
+    "country": "Sri Lanka",
+    "chineseCountryName": "斯里蘭卡",
+    "continent": "Asia"
+  },
+  {
+    "country": "St. Barth",
+    "chineseCountryName": "聖巴瑟米",
+    "continent": "North America"
+  },
+  {
+    "country": "Sudan",
+    "chineseCountryName": "蘇丹",
+    "continent": "Africa"
+  },
+  {
+    "country": "Suriname",
+    "chineseCountryName": "蘇利南",
+    "continent": "South America"
+  },
+  {
+    "country": "Swaziland",
+    "chineseCountryName": "史瓦帝尼王國",
+    "continent": "Africa"
+  },
+  {
+    "country": "Sweden",
+    "chineseCountryName": "瑞典",
+    "continent": "Europe"
+  },
+  {
+    "country": "Switzerland",
+    "chineseCountryName": "瑞士",
+    "continent": "Europe"
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "chineseCountryName": "敘利亞",
+    "continent": "Asia"
+  },
+  {
+    "country": "Taiwan",
+    "chineseCountryName": "台灣",
+    "continent": "Asia"
+  },
+  {
+    "country": "Tajikistan",
+    "chineseCountryName": "塔吉克",
+    "continent": "Asia"
+  },
+  {
+    "country": "Tanzania",
+    "chineseCountryName": "坦尚尼亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Thailand",
+    "chineseCountryName": "泰國",
+    "continent": "Asia"
+  },
+  {
+    "country": "Timor-Leste",
+    "chineseCountryName": "東帝汶",
+    "continent": "Asia"
+  },
+  {
+    "country": "Togo",
+    "chineseCountryName": "多哥",
+    "continent": "Africa"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "chineseCountryName": "千里達及托巴哥",
+    "continent": "South America"
+  },
+  {
+    "country": "Tunisia",
+    "chineseCountryName": "突尼西亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Turkey",
+    "chineseCountryName": "土耳其",
+    "continent": "Europe \u0026 Asia"
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "chineseCountryName": "土克斯及開科斯群島",
+    "continent": "North America"
+  },
+  {
+    "country": "UAE",
+    "chineseCountryName": "阿拉伯聯合大公國",
+    "continent": "Asia"
+  },
+  {
+    "country": "UK",
+    "chineseCountryName": "英國",
+    "continent": "Europe"
+  },
+  {
+    "country": "USA",
+    "chineseCountryName": "美國",
+    "continent": "North America"
+  },
+  {
+    "country": "Uganda",
+    "chineseCountryName": "烏干達",
+    "continent": "Africa"
+  },
+  {
+    "country": "Ukraine",
+    "chineseCountryName": "烏克蘭",
+    "continent": "Europe"
+  },
+  {
+    "country": "Uruguay",
+    "chineseCountryName": "烏拉圭",
+    "continent": "South America"
+  },
+  {
+    "country": "Uzbekistan",
+    "chineseCountryName": "烏茲別克",
+    "continent": "Asia"
+  },
+  {
+    "country": "Venezuela",
+    "chineseCountryName": "委內瑞拉",
+    "continent": "South America"
+  },
+  {
+    "country": "Vietnam",
+    "chineseCountryName": "越南",
+    "continent": "Asia"
+  },
+  {
+    "country": "Western Sahara",
+    "chineseCountryName": "西撒哈拉",
+    "continent": "Africa"
+  },
+  {
+    "country": "Yemen",
+    "chineseCountryName": "葉門",
+    "continent": "Asia"
+  },
+  {
+    "country": "Zambia",
+    "chineseCountryName": "尚比亞",
+    "continent": "Africa"
+  },
+  {
+    "country": "Zimbabwe",
+    "chineseCountryName": "辛巴威",
+    "continent": "Africa"
   }
 ]
